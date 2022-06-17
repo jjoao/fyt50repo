@@ -1,0 +1,580 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+:movimento owl:subClassOf :_top .
+:movimento_de_protesto owl:subClassOf :movimento .
+:document owl:subClassOf :_top .
+:legislação owl:subClassOf :document .
+:directiva owl:subClassOf :legislação .
+:lei owl:subClassOf :legislação .
+:portaria owl:subClassOf :legislação .
+:circular owl:subClassOf :legislação .
+:deliberação owl:subClassOf :legislação .
+:despacho owl:subClassOf :legislação .
+:decreto owl:subClassOf :legislação .
+:cronologia owl:subClassOf :document .
+:história_de_vida owl:subClassOf :document .
+:episódio owl:subClassOf :document .
+:temática owl:subClassOf :_top .
+:tipos_de_ensino owl:subClassOf :temática .
+:ensino_superior owl:subClassOf :tipos_de_ensino .
+:pré-escolar owl:subClassOf :tipos_de_ensino .
+:ensino_secundário owl:subClassOf :tipos_de_ensino .
+:ensino_básico owl:subClassOf :tipos_de_ensino .
+:cursos_tecnológicos owl:subClassOf :tipos_de_ensino .
+:escolas_profissionais owl:subClassOf :tipos_de_ensino .
+:politécnico owl:subClassOf :tipos_de_ensino .
+:curriculo owl:subClassOf :temática .
+:curriculo_ensino_secundário owl:subClassOf :curriculo .
+:avaliação owl:subClassOf :temática .
+:avaliação_de_cursos owl:subClassOf :avaliação .
+:numerus_clausus owl:subClassOf :temática .
+:processo_de_Bolonha owl:subClassOf :temática .
+:telescola owl:subClassOf :temática .
+:avaliação owl:subClassOf :temática .
+:avaliação_docente owl:subClassOf :avaliação .
+:disciplina owl:subClassOf :temática .
+:disciplina_Inglês owl:subClassOf :disciplina .
+:Português owl:subClassOf :disciplina .
+:Matemática owl:subClassOf :disciplina .
+:Metas_Curriculares owl:subClassOf :temática .
+:Plano_Nacional_de_Leitura owl:subClassOf :temática .
+:gestão_escolar owl:subClassOf :temática .
+:evento owl:subClassOf :_top .
+:manifestação owl:subClassOf :evento .
+:pessoa owl:subClassOf :_top .
+:investigador owl:subClassOf :pessoa .
+:ministro owl:subClassOf :pessoa .
+:about a owl:ObjectProperty .
+:about owl:inverseOf :see_doc .
+:about rdfs:range :temática .
+
+:superClass a owl:ObjectProperty .
+:superClass owl:inverseOf rdfs:subClassOf .
+
+:author a owl:ObjectProperty .
+:author owl:inverseOf :authorOf .
+:author rdfs:range :pessoa .
+
+:desc a owl:DataProperty .
+
+:year a owl:DataProperty .
+
+:version a owl:DataProperty .
+:version rdfs:domain :document .
+
+:Cronologia_de_eventos_FYTid :title :Cronologia_de_eventos .
+:Cronologia_de_eventos_FYTid :description """Cronologia de eventos 
+Identidades, Democracia, Escola, Administração e Formação 
+Sistema Educativo Português Cronologia de Reformas Educativas 1974-2021 
+ 
+documento de trabalho """ .
+:Cronologia_de_eventos_FYTid a :cronologia .
+:Cronologia_de_eventos_FYTid :author :Luís_Grosso_Correia .
+:Cronologia_de_eventos_FYTid :author :Margarida_Marta .
+:Cronologia_de_eventos_FYTid :author :Ana_Carolino .
+:Cronologia_de_eventos_FYTid :date :Maio_de_2021 .
+:Cronologia_de_eventos_FYTid :version :0.1 .
+:Cronologia_de_eventos_FYTid :transformação :J.João .
+
+:Decretos-Leis_n_36507_e_36508_de_17_de_setembro_de_1947 a :decreto .
+:Decretos-Leis_n_36507_e_36508_de_17_de_setembro_de_1947 :desc """reforma do ensino secundário-liceal. """ .
+:Decretos-Leis_n_36507_e_36508_de_17_de_setembro_de_1947 :about :ensino_secundário .
+
+:Lei_n_2025_de_17_de_julho_de_1947 a :lei .
+:Lei_n_2025_de_17_de_julho_de_1947 :desc """reforma do ensino secundário-técnico. """ .
+:Lei_n_2025_de_17_de_julho_de_1947 :about :ensino_secundário .
+
+:Decreto-Lei_n_40964_de_31_de_dezembro_de_1956 a :decreto .
+:Decreto-Lei_n_40964_de_31_de_dezembro_de_1956 :desc """alargamento da escolaridade obrigatória para 4 anos para os rapazes. """ .
+
+:Decreto-Lei_n_42994_de_28_de_maio_de_1960 a :decreto .
+:Decreto-Lei_n_42994_de_28_de_maio_de_1960 :desc """alargamento da escolaridade obrigatória para 4 anos para as raparigas. """ .
+
+:Decreto-Lei_n_45810_de_9_de_julho_de_1964 a :decreto .
+:Decreto-Lei_n_45810_de_9_de_julho_de_1964 :desc """alargamento da escolaridade obrigatória para 6 anos para ambos os sexos. """ .
+
+:Decreto-Lei_n_46135_de_31_de_dezembro_1964 a :decreto .
+:Decreto-Lei_n_46135_de_31_de_dezembro_1964 :desc """criação do Instituto de Meios Áudio-Visuais de Ensino (e da "Telescola"). 
+ 
+A telescola, sistema de ensino via televisão, arrancou em Portugal 
+a 6 de janeiro de 1965, com programação produzida nos estúdios da 
+RTP do Monte da Virgem, no Porto. Os alunos eram acompanhados nos postos 
+de receção por monitores. A intenção era permitir o cumprimento 
+aos alunos da escolaridade obrigatória, na altura constituída pelos 
+quatro anos da Escola Primária e dois de Ciclo Preparatório. """ .
+:Decreto-Lei_n_46135_de_31_de_dezembro_1964 :about :telescola .
+
+:Decreto-Lei_n_47430_de_2_de_janeiro_1967 a :decreto .
+:Decreto-Lei_n_47430_de_2_de_janeiro_1967 :desc """criação do Ciclo Preparatório do Ensino Secundário. """ .
+
+:Lei_n_5_73_de_25_de_julho_1973 a :lei .
+:Lei_n_5_73_de_25_de_julho_1973 :desc """bases da reforma do sistema educativo (dita reforma Veiga Simão) """ .
+:Lei_n_5_73_de_25_de_julho_1973 :about :Veiga_Simão .
+:Veiga_Simão a :ministro .
+:Lei_n_5_73_de_25_de_julho_1973 :about :reforma_Veiga_Simão .
+
+:Decreto-Lei_n_735-A_74_de_21_de_dezembro_1974 a :decreto .
+:Decreto-Lei_n_735-A_74_de_21_de_dezembro_1974 :desc """regime jurídico dos órgãos de gestão das escolas dos ensinos 
+preparatório e secundário. """ .
+:Decreto-Lei_n_735-A_74_de_21_de_dezembro_1974 :about :gestão_escolar .
+:Decreto-Lei_n_735-A_74_de_21_de_dezembro_1974 :about :ensino_secundário .
+
+:Decreto-Lei_n_270_75_de_30_de_maio_1975 a :decreto .
+:Decreto-Lei_n_270_75_de_30_de_maio_1975 :desc """Serviço Cívico Estudantil (frequência voluntária). """ .
+
+:diploma_1 :nota "(diploma legal por identificar)." .
+:diploma_1 :desc """início do curso unificado do ensino secundário (7º a 9º ano) 
+pelo 7º ano, em 1975/76 """ .
+:diploma_1 :about :ensino_secundário .
+
+:Decreto-Lei_n_769-A_76_de_23_de_outubro_1976 a :decreto .
+:Decreto-Lei_n_769-A_76_de_23_de_outubro_1976 :desc """regulamentação gestão das escolas dos ensinos preparatório e secundário. """ .
+:Decreto-Lei_n_769-A_76_de_23_de_outubro_1976 :about :gestão_escolar .
+
+:Portaria_n_634-A_77_de_4_de_outubro_1977 a :portaria .
+:Portaria_n_634-A_77_de_4_de_outubro_1977 :desc """normas de acesso ao ensino superior (numerus clausus). """ .
+:Portaria_n_634-A_77_de_4_de_outubro_1977 :about :numerus_clausus .
+:Portaria_n_634-A_77_de_4_de_outubro_1977 :about :ensino_superior .
+
+:Portaria_n_725_77_de_23_de_novembro_1977 a :portaria .
+:Portaria_n_725_77_de_23_de_novembro_1977 :desc """instituição do "Ano Propedêutico do ensino superior" a partir de 1977/1978. """ .
+:Portaria_n_725_77_de_23_de_novembro_1977 :about :ano_propedêutico .
+
+:Lei_n_5_77_de_1_de_fevereiro_1977 a :lei .
+:Lei_n_5_77_de_1_de_fevereiro_1977 :desc """Sistema Público de Educação Pré-Escolar """ .
+:Lei_n_5_77_de_1_de_fevereiro_1977 :about :ensino_pré-escolar .
+
+:Lei_n_6_77_de_1_de_fevereiro_1977 a :lei .
+:Lei_n_6_77_de_1_de_fevereiro_1977 :desc """Cria as escolas normais de educadores de infância """ .
+
+:Despacho_Normativo_n_140-A_78_de_22_de_junho_1978 a :despacho .
+:Despacho_Normativo_n_140-A_78_de_22_de_junho_1978 :desc """organização dos cursos complementares de ensino secundário. """ .
+:Despacho_Normativo_n_140-A_78_de_22_de_junho_1978 :about :ensino_secundário .
+
+:Decreto-Lei_n_538_79_de_29_de_dezembro_1979 a :decreto .
+:Decreto-Lei_n_538_79_de_29_de_dezembro_1979 :desc """obrigatoriedade e gratuitidade do então designado ensino básico -- 
+os 6 primeiros graus de escolaridade. """ .
+
+:Decreto-Lei_n_513-T_79_de_26_de_dezembro_1979 a :decreto .
+:Decreto-Lei_n_513-T_79_de_26_de_dezembro_1979 :desc """define a rede de estabelecimentos de ensino superior politécnico, 
+que anteriormente se designava de curta duração. """ .
+:Decreto-Lei_n_513-T_79_de_26_de_dezembro_1979 :about :ensino_superior .
+:Decreto-Lei_n_513-T_79_de_26_de_dezembro_1979 :about :politécnico .
+
+:Decreto-Lei_n_519-T1_79_de_29_de_dezembro_1979 a :decreto .
+:Decreto-Lei_n_519-T1_79_de_29_de_dezembro_1979 :desc """regime contratual de docentes além dos quadros dos ensinos 
+preparatório e secundário e regime da profissionalização em 
+exercício de docentes. """ .
+
+:Decreto-Lei_n_519-R2_79_de_29_de_dezembro_1979 a :decreto .
+:Decreto-Lei_n_519-R2_79_de_29_de_dezembro_1979 :desc """Estatuto das Escolas Normais de Educadores de Infância. """ .
+
+:Decreto-Lei_n_542_79_de_14_de_dezembro_1979 a :decreto .
+:Decreto-Lei_n_542_79_de_14_de_dezembro_1979 :desc """Estatutos do Jardim de Infância """ .
+
+:Decreto-Lei_n_240_80_de_19_de_julho_1980 a :decreto .
+:Decreto-Lei_n_240_80_de_19_de_julho_1980 :desc """reformulação dos cursos complementares do ensino secundário com a 
+instituição do 12º ano. """ .
+:Decreto-Lei_n_240_80_de_19_de_julho_1980 :about :ensino_secundário .
+
+:Decreto-Lei_n_59_86_de_21_de_março_1986 a :decreto .
+:Decreto-Lei_n_59_86_de_21_de_março_1986 :desc """referencial genérico das atividades das escolas superiores de 
+educação em matéria de formação inicial de educadores de infância 
+e professores do ensino primário. """ .
+
+:Lei_n_46_86_de_14_de_outubro_1986 a :lei .
+:Lei_n_46_86_de_14_de_outubro_1986 :desc """Lei de Bases do Sistema Educativo. """ .
+
+:Decreto-Lei_n_405_86_de_15_de_dezembro_1986 a :decreto .
+:Decreto-Lei_n_405_86_de_15_de_dezembro_1986 :desc """regula o processo de profissionalização em serviço dos professores 
+provisórios dos ensinos preparatório e secundário. """ .
+
+:Portaria_n_850_87_de_3_de_novembro_Universidade_do_Porto_- a :portaria .
+:Portaria_n_850_87_de_3_de_novembro_Universidade_do_Porto_- :desc """criação do Instituto de Inovação Educacional (Decreto-Lei 3/87 de 3 
+de janeiro), extinto em 2002 (Decreto-Lei nº 208/2002 de 17 de Outubro) """ .
+
+:Portaria_n_336_88_de_28_de_maio a :portaria .
+:Portaria_n_336_88_de_28_de_maio :desc """regulamenta a prática pedagógica dos cursos de formação inicial 
+de educadores de infância e de professores dos 1º e 2º ciclos do 
+ensino básico. """ .
+
+:Decreto-Lei_n_287_88_de_19_de_agosto a :decreto .
+:Decreto-Lei_n_287_88_de_19_de_agosto :desc """regulamenta a profissionalização em serviço dos professores 
+pertencentes aos quadros, com nomeação provisória, dos ensinos 
+preparatório e secundário. """ .
+
+:Decreto-Lei_n_43_89_de_3_de_fevereiro_1989 a :decreto .
+:Decreto-Lei_n_43_89_de_3_de_fevereiro_1989 :desc """regime jurídico da autonomia e administração das escolas dos 2º 
+e 3º ciclos do ensino básico e do ensino secundário. """ .
+
+:Decreto-Lei_n_286_89_de_29_de_agosto_1989 a :decreto .
+:Decreto-Lei_n_286_89_de_29_de_agosto_1989 :desc """reforma curricular dos ensinos básico e secundário. """ .
+
+:Decreto-Lei_n_344_89_de_11_de_outubro_1989 a :decreto .
+:Decreto-Lei_n_344_89_de_11_de_outubro_1989 :desc """regime jurídico da formação de educadores de infância e de 
+professores dos ensinos básico e secundário. """ .
+
+:Decreto-Lei_n_26_89_1989 a :decreto .
+:Decreto-Lei_n_26_89_1989 :desc """criação de escolas profissionais. """ .
+:Decreto-Lei_n_26_89_1989 :about :escolas_profissionais .
+
+:Decreto-Lei_n_139-A_90_de_28_de_abril_1990 a :decreto .
+:Decreto-Lei_n_139-A_90_de_28_de_abril_1990 :desc """Estatuto da Carreira Docente dos Educadores de Infância e dos 
+Professores dos Ensinos Básico e Secundário (Estatuto da Carreira 
+Docente). """ .
+
+:Lei_n_50_90_de_25_de_agosto_1990 a :lei .
+:Lei_n_50_90_de_25_de_agosto_1990 :desc """equipara a bacharel as qualificações obtidas pelos professores do 
+ensino primário e educadores de infância para efeito de prosseguimento 
+dos seus estudos. """ .
+
+:Decreto-Lei_n_172_91_de_10_de_maio_1991 a :decreto .
+:Decreto-Lei_n_172_91_de_10_de_maio_1991 :desc """direção, administração e gestão dos estabelecimentos de educação 
+pré-escolar e dos ensinos básico e secundário. """ .
+:Decreto-Lei_n_172_91_de_10_de_maio_1991 :about :gestão_escolar .
+:Decreto-Lei_n_172_91_de_10_de_maio_1991 :about :pré-escolar .
+
+:Despacho_n_124_ME_91_de_31_de_julho_1991 a :despacho .
+:Despacho_n_124_ME_91_de_31_de_julho_1991 :desc """homologação dos programas curriculares dos ensinos básico e secundário. """ .
+
+:Portaria_n_921_92_de_23_de_setembro_1992 a :portaria .
+:Portaria_n_921_92_de_23_de_setembro_1992 :desc """estruturas de orientação educativa dos estabelecimentos de educação 
+pré-escolar e dos ensinos básico e secundário. """ .
+
+:diploma_2 :nota "(diploma legal por identificar)." .
+:diploma_2 :desc """Revisão curricular do ensino secundário - cursos tecnológicos """ .
+:diploma_2 :about :curriculo_ensino_secundário .
+:diploma_2 :about :cursos_tecnológicos .
+
+:Decreto-Lei_n_70_93_de_10_de_março_1993 a :decreto .
+:Decreto-Lei_n_70_93_de_10_de_março_1993 :desc """Estabelece o regime de criação e funcionamento das escolas profissionais """ .
+:Decreto-Lei_n_70_93_de_10_de_março_1993 :about :escolas_profissionais .
+
+:Despacho_Normativo_n_338_93_1993 a :despacho .
+:Despacho_Normativo_n_338_93_1993 :desc """Aprova o regime de avaliação dos alunos do ensino secundário """ .
+:Despacho_Normativo_n_338_93_1993 :about :avaliação_de_alunos .
+:Despacho_Normativo_n_338_93_1993 :about :ensino_secundário .
+
+:Decreto-Lei_n_141_93_de_26_de_abril_1993 a :decreto .
+:Decreto-Lei_n_141_93_de_26_de_abril_1993 :desc """criação das direções regionais de educação. """ .
+
+:geração_Rasca a :movimento_protesto .
+:geração_Rasca :year :1994 .
+:geração_Rasca :desc """Movimento antipropinas -- "geração à rasca" """ .
+
+:Despacho_n_147-B_ME_96_de_8_de_julho_1996 a :despacho .
+:Despacho_n_147-B_ME_96_de_8_de_julho_1996 :desc """criação dos Territórios Educativos de Intervenção Prioritária (TEIP). """ .
+
+:directiva_1 a :directiva .
+:directiva_1 a :projecto .
+:directiva_1 :year :1996 .
+:directiva_1 :by :Ministério_da_Educação .
+:directiva_1 :desc """projeto "Reflexão participada sobre o currículo do ensino básico" 
+ou projeto dito de flexibilização curricular. """ .
+:directiva_1 :about :curriculo .
+:directiva_1 :about :ensino_básico .
+
+:Lei_n_5_97_de_10_de_fevereiro_1997 a :lei .
+:Lei_n_5_97_de_10_de_fevereiro_1997 :desc """Lei-Quadro da Educação Pré-Escolar. """ .
+:Lei_n_5_97_de_10_de_fevereiro_1997 :about :ensino_pré-escolar .
+
+:Lei_n_115_97_de_19_de_setembro_1997 a :lei .
+:Lei_n_115_97_de_19_de_setembro_1997 :desc """1ª alteração à Lei de Bases do Sistema Educativo no sentido de 
+facultar o grau de licenciado ao ensino superior politécnico e exigir 
+o grau de licenciado como requisito de acesso à profissão docente. """ .
+:Lei_n_115_97_de_19_de_setembro_1997 :about :ensino_superior .
+
+:directiva_2 a :directiva .
+:directiva_2 :by "Ministério da Educação," .
+:directiva_2 :desc """projeto "Revisão participada do currículo" do ensino secundário. """ .
+:directiva_2 :about :ensino_secundário .
+
+:Decreto-Lei_n_147_97_de_11_de_junho_1997 a :decreto .
+:Decreto-Lei_n_147_97_de_11_de_junho_1997 :desc """Regime jurídico do desenvolvimento da Educação Pré-Escolar """ .
+:Decreto-Lei_n_147_97_de_11_de_junho_1997 :about :ensino_pré-escolar .
+
+:Despacho_n_5220_97_de_10_de_fevereiro_1997 a :despacho .
+:Despacho_n_5220_97_de_10_de_fevereiro_1997 :desc """Orientações Curriculares para a Educação Pré-escolar """ .
+:Despacho_n_5220_97_de_10_de_fevereiro_1997 :about :ensino_pré-escolar .
+
+:Decreto-Lei_n_115-A_98_de_4_de_maio_1998 a :decreto .
+:Decreto-Lei_n_115-A_98_de_4_de_maio_1998 :desc """regime de autonomia, administração e gestão das 
+escolas. (Agrupamentos de Escolas) """ .
+:Decreto-Lei_n_115-A_98_de_4_de_maio_1998 :about :gestão_escolar .
+
+:directiva_3 a :directiva .
+:directiva_3 :year :1998 .
+:directiva_3 :by "Ministério da Educação," .
+:directiva_3 :desc :Documento_orientador_das_políticas_para_o_ensino_básico .
+:directiva_3 :about :ensino_básico .
+
+:directiva_4 a :directiva .
+:directiva_4 :year :1998 .
+:directiva_4 :by "Ministério da Educação," .
+:directiva_4 :desc :Documento_orientador_das_políticas_para_o_ensino_secundário .
+:directiva_4 :about :ensino_secundário .
+
+:Decreto-Lei_n_290_98_de_17_de_setembro a :decreto .
+:Decreto-Lei_n_290_98_de_17_de_setembro :desc """alteração ao Orçamento do Estado de 2002. """ .
+
+:Decreto-Lei_n_255_98_de_11_de_agosto a :decreto .
+:Decreto-Lei_n_255_98_de_11_de_agosto :desc """regula as condições em que os educadores de infância e os professores 
+dos ensinos básico e secundário, titulares de um grau de bacharel 
+ou equivalente, podem adquirir o grau académico de licenciado para 
+efeitos de prosseguimento de estudos. """ .
+
+:Decreto-Lei_n_270_98_de_1_de_setembro a :decreto .
+:Decreto-Lei_n_270_98_de_1_de_setembro :desc """estatuto do aluno dos estabelecimentos do ensino público. """ .
+
+:Deliberação_n_1488_2000_de_15_de_dezembro_2000 a :deliberação .
+:Deliberação_n_1488_2000_de_15_de_dezembro_2000 :desc """o INAFOP homologa os padrões de qualidade da formação inicial de 
+professores, sendo atribuído um peso às componentes de formação 
+convertido em unidades de crédito (deliberação interna, não 
+publicada em Diário da República). """ .
+
+:directiva_5 a :directiva .
+:directiva_5 a :projecto .
+:directiva_5 :year :2001 .
+:directiva_5 :by :Ministério_da_Educação .
+:directiva_5 :desc """criação de centros de Reconhecimento, Validação e Certificação 
+de Competências ("Novas Oportunidades"..., hoje "Qualifica"). """ .
+:directiva_5 :about :Novas_Oportunidades .
+:Novas_Oportunidades a :programa .
+:Novas_Oportunidades owl:sameAs :Qualifica .
+
+:Decreto-Lei_n_6_2001_de_18_de_janeiro_2001 a :decreto .
+:Decreto-Lei_n_6_2001_de_18_de_janeiro_2001 :desc """reforma curricular do ensino básico e Programas - Currículo Nacional """ .
+
+:Decreto-Lei_n_7_2001_de_18_de_janeiro_2001 a :decreto .
+:Decreto-Lei_n_7_2001_de_18_de_janeiro_2001 :desc """reforma curricular do ensino secundário e Programas - Currículo 
+Nacional (suspenso em 2002) """ .
+:Decreto-Lei_n_7_2001_de_18_de_janeiro_2001 :about :ensino_secundário .
+
+:Decreto-Lei_n_240_2001_de_30_de_agosto_2001 a :decreto .
+:Decreto-Lei_n_240_2001_de_30_de_agosto_2001 :desc """aprova o perfil geral de desempenho profissional do educador de 
+infância e dos professores dos ensinos básico e secundário. """ .
+
+:Despacho_n_19310_2002_de_29_de_julho_2002 a :despacho .
+:Despacho_n_19310_2002_de_29_de_julho_2002 :desc """Estabelece o calendário da educação pré-escolar distinto do restante 
+ensino básico """ .
+
+:Decreto-Lei_n_7_2003_de_15_de_janeiro_2003 a :decreto .
+:Decreto-Lei_n_7_2003_de_15_de_janeiro_2003 :desc """criação dos conselhos municipais de educação. """ .
+
+:Decreto-Lei_n_74_2004_de_26_de_março_2004 a :decreto .
+:Decreto-Lei_n_74_2004_de_26_de_março_2004 :desc """reforma curricular do ensino secundário """ .
+:Decreto-Lei_n_74_2004_de_26_de_março_2004 :about :ensino_secundário .
+
+:directiva_6 a :directiva .
+:directiva_6 :year :2005 .
+:directiva_6 :by :Ministério_da_Educação .
+:directiva_6 :desc """Escola a tempo inteiro (1º ciclo do ensino básico) """ .
+
+:directiva_7 a :directiva .
+:directiva_7 :by :Ministério_da_Educação .
+:directiva_7 :desc """Inglês no 1º CEB como atividade extracurricular (AEC) """ .
+:directiva_7 :about :curriculo .
+:directiva_7 :about :disciplina_Inglês .
+
+:Lei_n_49_2005_de_30_de_agosto_2005 a :lei .
+:Lei_n_49_2005_de_30_de_agosto_2005 :desc """2ª alteração à Lei de Bases do Sistema Educativo, adequação do 
+ensino superior ao Processo de Bolonha. """ .
+:Lei_n_49_2005_de_30_de_agosto_2005 :about :processo_de_Bolonha .
+:Lei_n_49_2005_de_30_de_agosto_2005 :about :ensino_superior .
+
+:Decreto-Lei_n_27_2006_de_10_de_fevereiro_2006 a :decreto .
+:Decreto-Lei_n_27_2006_de_10_de_fevereiro_2006 :desc """cria os grupos de recrutamento para efeitos de seleção e recrutamento 
+do pessoal docente da educação pré-escolar e dos ensinos básico 
+e secundário. """ .
+
+:Despacho_Normativo_n_1_2006_de_16_de_dezembro_de_2005 a :despacho .
+:Despacho_Normativo_n_1_2006_de_16_de_dezembro_de_2005 :desc """percursos curriculares alternativos. """ .
+
+:directiva_8 a :directiva .
+:directiva_8 :year :2006 .
+:directiva_8 :by "Ministério da Educação," .
+:directiva_8 :desc """programa "Novas Oportunidades". """ .
+:directiva_8 :about :Novas_Oportunidades .
+
+:directiva_9 a :directiva .
+:directiva_9 :year :2006 .
+:directiva_9 :by "Ministério da Educação," .
+:directiva_9 :desc """Plano Nacional de Leitura """ .
+:directiva_9 :about :Plano_Nacional_de_Leitura .
+:Plano_Nacional_de_Leitura a :programa .
+
+:directiva_10 a :directiva .
+:directiva_10 :year :2006 .
+:directiva_10 :by "Ministério da Educação," .
+:directiva_10 :desc """Plano de Ação para a Matemática """ .
+:directiva_10 :about :Matemática .
+
+:Decreto-Lei_n_74_2006_de_24_de_março_2006 a :decreto .
+:Decreto-Lei_n_74_2006_de_24_de_março_2006 :desc """Aprova o regime jurídico dos graus e diplomas do ensino superior, 
+em desenvolvimento do disposto nos artigos 13º a 15º da Lei nº 
+46/86, de 14 de outubro (Lei de Bases do Sistema Educativo), alterada 
+pelas Leis nº 115/97, de 19 de setembro, e 49/2005, de 30 de agosto, 
+bem como o disposto no nº 4 do artigo 16.o da Lei nº 37/2003, de 22 
+de agosto (estabelece as bases do financiamento do ensino superior), 
+alterada pela Lei nº 49/2005, de 30 de agosto. """ .
+:Decreto-Lei_n_74_2006_de_24_de_março_2006 :about :ensino_superior .
+
+:directiva_11 a :directiva .
+:directiva_11 :year :2007 .
+:directiva_11 :by "Ministério da Educação," .
+:directiva_11 :desc """Plano Tecnológico de Educação """ .
+
+:directiva_12 a :directiva .
+:directiva_12 :year :2007 .
+:directiva_12 :by "Ministério da Educação," .
+:directiva_12 :desc """Novo Programa Curricular de Matemática """ .
+:directiva_12 :about :curriculo .
+:directiva_12 :about :Matemática .
+
+:Decreto-Lei_n_43_2007_de_22_de_fevereiro_2007 a :decreto .
+:Decreto-Lei_n_43_2007_de_22_de_fevereiro_2007 :desc """regime jurídico de habilitação profissional para a docência na 
+educação pré-escolar e nos ensinos básico e secundário (torna 
+obrigatória a aquisição de habilitação profissional para o 
+exercício da docência correspondente ao grau de mestrado). """ .
+
+:Decreto-Lei_n_369_2007_de_5_de_novembro_2007 a :decreto .
+:Decreto-Lei_n_369_2007_de_5_de_novembro_2007 :desc """institui a Agência de Avaliação e Acreditação do Ensino Superior 
+e aprova os seus Estatutos (A3ES). """ .
+:Decreto-Lei_n_369_2007_de_5_de_novembro_2007 :about :A3ES .
+:A3ES a :instituição .
+:Decreto-Lei_n_369_2007_de_5_de_novembro_2007 :about :avaliação_de_cursos .
+
+:Circular_n_17_DSDC_DEPEP_2007_de_10_de_outubro a :circular .
+:Circular_n_17_DSDC_DEPEP_2007_de_10_de_outubro :desc """Gestão do currículo na educação pré-escolar """ .
+:Circular_n_17_DSDC_DEPEP_2007_de_10_de_outubro :about :curriculo .
+
+:Decreto-Lei_n_75_2008_de_22_de_abril_2008 a :decreto .
+:Decreto-Lei_n_75_2008_de_22_de_abril_2008 :desc """regime de autonomia, administração e gestão das escolas (1ª alteração). """ .
+:Decreto-Lei_n_75_2008_de_22_de_abril_2008 :about :gestão_escolar .
+
+:manifestações_de_professores_2008 a :manifestação .
+:manifestações_de_professores_2008 :desc """Grandes manifestações de professores a 8 de março e a 8 de novembro. """ .
+
+:Decreto_Regulamentar_n_2_2008_de_10_de_janeiro_- a :decreto .
+:Decreto_Regulamentar_n_2_2008_de_10_de_janeiro_- :desc """Avaliação de Desempenho Docente """ .
+:Decreto_Regulamentar_n_2_2008_de_10_de_janeiro_- :about :avaliação_docente .
+
+:directiva_13 a :directiva .
+:directiva_13 :by "Ministério da Educação," .
+:directiva_13 :desc """Novo Programa Curricular de Português """ .
+:directiva_13 :about :curriculo .
+:directiva_13 :about :Português .
+
+:Lei_n_85_2009_de_27_de_agosto a :lei .
+:Lei_n_85_2009_de_27_de_agosto :desc """3ª alteração à Lei de Bases do Sistema Educativo, estabelece 
+o regime da escolaridade obrigatória de 12 anos para as crianças e 
+jovens e consagra a universalidade da educação pré-escolar para as 
+crianças a partir dos 5 anos de idade. """ .
+
+:metas_de_aprendizagem_2010 a :proposta_de_actividades_curriculares .
+:metas_de_aprendizagem_2010 :year :2010 .
+:metas_de_aprendizagem_2010 :desc """Metas de Aprendizagem (ensino básico - propostas de atividades 
+curriculares de adesão voluntária). """ .
+:metas_de_aprendizagem_2010 :about :curriculo .
+:metas_de_aprendizagem_2010 :about :ensino_básico .
+
+:Decreto_Regulamentar_n_2_2010_de_23_de_junho a :decreto .
+:Decreto_Regulamentar_n_2_2010_de_23_de_junho :year :2010 .
+:Decreto_Regulamentar_n_2_2010_de_23_de_junho :desc """Avaliação do Desempenho dos Docentes """ .
+:Decreto_Regulamentar_n_2_2010_de_23_de_junho :about :avaliação_docente .
+
+:Despacho_n_11120-A_2010_de_6_de_julho_- a :despacho .
+:Despacho_n_11120-A_2010_de_6_de_julho_- :desc """Altera o Despacho 13599/2006(2ªsérie), de 28 de Junho, relativo à 
+organização do ano letivo nos estabelecimentos públicos de educação 
+pré-escolar e dos ensinos básico e secundário. """ .
+
+:directiva_14 a :directiva .
+:directiva_14 :year :2011 .
+:directiva_14 :by "Ministério da Educação," .
+:directiva_14 :desc """Suspensão do Currículo Nacional do Ensino Básico """ .
+:directiva_14 :about :curriculo .
+:directiva_14 :about :ensino_básico .
+
+:geração_Parva a :movimento_protesto .
+:geração_Parva :year :2011 .
+:geração_Parva :desc """A designação de geração Parva surgiu na sequência da música 
+"Parva que sou", Deolinda, interpretada pela primeira vez pelo grupo 
+nos concertos nos Coliseus do Porto e Lisboa em janeiro de 2011, 
+tornou-se desde então em Portugal num hino de constestação da 
+geração de 30 anos, frustada, por ter estudado, mas não conseguir 
+emprego e não ter perspetivas de futuro com a crise económica. """ .
+
+:Circular_n_4_DGIDC_DSDC_2011_de_11_de_abril_de_2011_- a :circular .
+:Circular_n_4_DGIDC_DSDC_2011_de_11_de_abril_de_2011_- :desc """Avaliação na Educação Pré-Escolar """ .
+:Circular_n_4_DGIDC_DSDC_2011_de_11_de_abril_de_2011_- :about :ensino_pré-escolar .
+:Circular_n_4_DGIDC_DSDC_2011_de_11_de_abril_de_2011_- :about :avaliação .
+
+:Decreto-Lei_n_139_2012_de_5_julho a :decreto .
+:Decreto-Lei_n_139_2012_de_5_julho :desc """Aumento do número mínimo de alunos por turma (de 24 para 
+28). (Pré-escolar, 25 alunos; 1º CEB de 20 para 24; 2º e 3º CEB 
+30 alunos; ) """ .
+:Decreto-Lei_n_139_2012_de_5_julho :about :ensino_pré-escolar .
+
+:directiva_15 a :directiva .
+:directiva_15 :year :2013 .
+:directiva_15 :by "Ministério da Educação," .
+:directiva_15 :desc """programa de Metas Curriculares - do 1º ao 12º ano do ensino básico """ .
+:directiva_15 :about :Metas_Curriculares .
+:Metas_Curriculares a :programa .
+
+:Decreto-Lei_n_137_2012_de_2_de_julho a :decreto .
+:Decreto-Lei_n_137_2012_de_2_de_julho :desc """regime de autonomia das escolas (maximização dos agrupamentos de escolas) """ .
+
+:Decreto-Lei_n_176_2014_de_12_de_dezembro a :decreto .
+:Decreto-Lei_n_176_2014_de_12_de_dezembro :desc """introduz a disciplina de Inglês no currículo, como disciplina 
+obrigatória a partir do 3º ano de escolaridade e define a respetiva 
+habilitação profissional para a docência do inglês no 1º ciclo 
+do ensino básico (novo grupo de recrutamento docente - 120). """ .
+:Decreto-Lei_n_176_2014_de_12_de_dezembro :about :curriculo .
+:Decreto-Lei_n_176_2014_de_12_de_dezembro :about :disciplina_Inglês .
+
+:Decreto-Lei_n_79_2014_de_14_de_maio a :decreto .
+:Decreto-Lei_n_79_2014_de_14_de_maio :desc """altera o Decreto-Lei nº 43/2007, de 22 de fevereiro, habilitação 
+profissional para o exercício da docência correspondente ao grau 
+de mestre. """ .
+
+:directiva_16 a :directiva .
+:directiva_16 :year :2015 .
+:directiva_16 :by "Ministério da Educação," .
+:directiva_16 :desc """(Novos) Programas e Metas Curriculares -- Português e Matemática. """ .
+:directiva_16 :about :curriculo .
+:directiva_16 :about :Matemática .
+:directiva_16 :about :Português .
+:directiva_16 :about :Metas_Curriculares .
+
+:Lei_n_65_2015_de_3_de_julho_- a :lei .
+:Lei_n_65_2015_de_3_de_julho_- :desc """Estabelece a universalidade da educação pré-escolar para as crianças 
+a partir dos 4 anos de idade. """ .
+
+:directiva_17 a :directiva .
+:directiva_17 :by "ME/Direção-Geral de Educação," .
+:directiva_17 :desc """Orientações Curriculares para a Educação Pré-Escolar. """ .
+:directiva_17 :about :ensino_pré-escolar .
+
+:Despacho_n_9_180_2016_de_19_de_julho_- a :despacho .
+:Despacho_n_9_180_2016_de_19_de_julho_- :desc """Reformulação das Orientações Curriculares para a Educação Pré-escolar """ .
+:Despacho_n_9_180_2016_de_19_de_julho_- :about :ensino_pré-escolar .
+
+:Despacho_n_6478_2017_26_de_julho a :despacho .
+:Despacho_n_6478_2017_26_de_julho :desc """homologa o Perfil dos Alunos à Saída da Escolaridade Obrigatória. """ .
+
+:Resolução_do_Conselho_de_Ministros_n_48-D_2017 a :resolução .
+:Resolução_do_Conselho_de_Ministros_n_48-D_2017 :url "https://www.pnl2027.gov.pt/np4EN/file/35/resolucao.pdf" .
+:Resolução_do_Conselho_de_Ministros_n_48-D_2017 :desc """Plano Nacional de Leitura 2017-2027 """ .
+:Resolução_do_Conselho_de_Ministros_n_48-D_2017 :about :Plano_Nacional_de_Leitura .
+
+:Decreto-Lei_n_55_2018_de_6_de_julho a :decreto .
+:Decreto-Lei_n_55_2018_de_6_de_julho :desc """reforma curricular dos ensinos básico e secundário (flexibilização 
+curricular e Aprendizagens Essenciais). """ .
+
+:Despacho_n_8476-A_2018_de_31_de_agosto a :despacho .
+:Despacho_n_8476-A_2018_de_31_de_agosto :desc """homologa as Aprendizagens Essenciais do Ensino Secundário (Cursos 
+Científico-Humanísticos). """ .
+

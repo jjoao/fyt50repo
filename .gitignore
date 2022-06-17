@@ -1,0 +1,14 @@
+*.DS_Store
+__pycache__/
+/blib/
+/Makefile
+/Makefile.old
+/MANIFEST.bak
+/META.yml
+/META.json
+/MYMETA.*
+/pm_to_blib
+*.o
+*.bs
+.*.swp
+*.exe

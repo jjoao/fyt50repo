@@ -1,0 +1,14 @@
+@TAB
+
+ObjectProperty :: inverseOf  :: domain :: range
+about          :: see doc    ::        :: temática
+superClass     :: subClassOf ::        ::
+author         :: authorOf   ::        :: pessoa
+
+@TAB
+
+DataProperty :: domain
+desc         ::
+year         ::
+version      :: document
+
