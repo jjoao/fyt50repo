@@ -27,11 +27,11 @@ temática
         curriculo_ensino_secundário
     avaliação
         avaliação_de_cursos
+        avaliação_docente
     numerus_clausus
     processo_de_Bolonha
     telescola
-    avaliação
-        avaliação_docente
+    
     disciplina
         disciplina_Inglês
         Português
