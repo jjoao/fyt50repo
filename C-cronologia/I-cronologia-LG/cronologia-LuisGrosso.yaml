@@ -4,7 +4,7 @@ title: Cronologia de eventos
 description: |
    Cronologia de eventos
    Identidades, Democracia, Escola, Administração e Formação
-   Sistema Educativo Português Cronologia de Reformas Educativas 1974-2021
+   Sistema Educativo Português Cronologia de Reformas Educativas 1974-2021<br/>
  
    documento de trabalho
  
@@ -22,7 +22,7 @@ transformação: J.João
 
 ---
 type: decreto
-id: Decretos-Leis nº 36507 e 36508, de 17 de setembro de 1947,
+id: Decretos-Leis nº 36507 e 36508, de 17 de setembro de 1947
 desc: |
   reforma do ensino secundário-liceal.
 about:
@@ -30,7 +30,7 @@ about:
 
 ---
 type: lei
-id: Lei nº 2025, de 17 de julho de 1947,
+id: Lei nº 2025, de 17 de julho de 1947
 desc: |
   reforma do ensino secundário-técnico.
 about:
@@ -41,7 +41,7 @@ about:
 
 ---
 type: decreto
-id: Decreto-Lei nº 40964, de 31 de dezembro de 1956,
+id: Decreto-Lei nº 40964, de 31 de dezembro de 1956
 desc: |
   alargamento da escolaridade obrigatória para 4 anos para os rapazes.
 
@@ -50,7 +50,7 @@ desc: |
 
 ---
 type: decreto
-id: Decreto-Lei nº 42994, de 28 de maio de 1960,
+id: Decreto-Lei nº 42994, de 28 de maio de 1960
 desc: |
   alargamento da escolaridade obrigatória para 4 anos para as raparigas.
 
@@ -59,7 +59,7 @@ desc: |
 
 ---
 type: decreto
-id: Decreto-Lei nº 45810, de 9 de julho de 1964,
+id: Decreto-Lei nº 45810, de 9 de julho de 1964
 desc: |
   alargamento da escolaridade obrigatória para 6 anos para ambos os sexos.
 
@@ -284,7 +284,7 @@ desc: |
 
 ---
 type: portaria
-id: Portaria nº 336/88, de 28 de maio,
+id: Portaria nº 336/88, de 28 de maio
 desc: |
   regulamenta a prática pedagógica dos cursos de formação inicial
   de educadores de infância e de professores dos 1º e 2º ciclos do
@@ -469,7 +469,7 @@ about:
 ---
 type: directiva
 id: directiva 2
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: |
   projeto "Revisão participada do currículo" do ensino secundário.
 about:
@@ -507,7 +507,7 @@ about:
 type: directiva
 id: directiva 3
 year: 1998
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: "Documento orientador das políticas para o ensino básico"
 about:
   - ensino básico
@@ -516,14 +516,14 @@ about:
 type: directiva
 id: directiva 4
 year: 1998
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: "Documento orientador das políticas para o ensino secundário"
 about:
   - ensino secundário
 
 ---
 type: decreto
-id: Decreto-Lei nº 290/98, de 17 de setembro,
+id: Decreto-Lei nº 290/98, de 17 de setembro
 desc: |
   aprova a lei orgânica do Instituto Nacional de Acreditação da
   Formação de Professores (INAFOP) - extinto pela Lei nº 16-A/2002. de
@@ -533,7 +533,7 @@ desc: |
 
 ---
 type: decreto
-id: Decreto-Lei nº 255/98, de 11 de agosto,
+id: Decreto-Lei nº 255/98, de 11 de agosto
 desc: |
   regula as condições em que os educadores de infância e os professores
   dos ensinos básico e secundário, titulares de um grau de bacharel
@@ -542,7 +542,7 @@ desc: |
 
 ---
 type: decreto
-id: Decreto-Lei nº 270/98, de 1 de setembro,
+id: Decreto-Lei nº 270/98, de 1 de setembro
 desc: |
   estatuto do aluno dos estabelecimentos do ensino público.
 
@@ -673,7 +673,7 @@ desc: |
 
 ---
 type: despacho
-id: Despacho Normativo nº 1/2006, de 16 de dezembro de 2005,
+id: Despacho Normativo nº 1/2006, de 16 de dezembro de 2005
 desc: |
   percursos curriculares alternativos.
 
@@ -681,7 +681,7 @@ desc: |
 type: directiva
 id: directiva 8
 year: 2006
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: |
   programa "Novas Oportunidades".
 about:
@@ -691,7 +691,7 @@ about:
 type: directiva
 id: directiva 9
 year: 2006
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: |
   Plano Nacional de Leitura
 about: 
@@ -702,7 +702,7 @@ about:
 type: directiva
 id: directiva 10
 year: 2006
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: |
   Plano de Ação para a Matemática
 about:
@@ -729,7 +729,7 @@ about:
 type: directiva
 id: directiva 11
 year: 2007
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: |
   Plano Tecnológico de Educação
 
@@ -737,7 +737,7 @@ desc: |
 type: directiva
 id: directiva 12
 year: 2007
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: |
   Novo Programa Curricular de Matemática
 about:
@@ -803,7 +803,7 @@ about:
 ---
 type: directiva
 id: directiva 13
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: |
   Novo Programa Curricular de Português
 about:
@@ -812,7 +812,7 @@ about:
 
 ---
 type: lei
-id: Lei nº 85/2009, de 27 de agosto,
+id: Lei nº 85/2009, de 27 de agosto
 desc: |
   3ª alteração à Lei de Bases do Sistema Educativo, estabelece
   o regime da escolaridade obrigatória de 12 anos para as crianças e
@@ -857,7 +857,7 @@ desc: |
 type: directiva
 id: directiva 14
 year: 2011
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: |
   Suspensão do Currículo Nacional do Ensino Básico
 about:
@@ -890,7 +890,7 @@ about:
 
 ---
 type: decreto
-id: Decreto-Lei nº 139/2012, de 5 julho,
+id: Decreto-Lei nº 139/2012, de 5 julho
 desc: |
   revisão da estrutura curricular - ensinos básico e secundário.
 desc: |
@@ -907,7 +907,7 @@ about:
 type: directiva
 id: directiva 15
 year: 2013
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: |
   programa de Metas Curriculares - do 1º ao 12º ano do ensino básico
 about:
@@ -916,7 +916,7 @@ about:
 
 ---
 type: decreto
-id: Decreto-Lei nº 137/2012, de 2 de julho,
+id: Decreto-Lei nº 137/2012, de 2 de julho
 desc: |
   regime de autonomia das escolas (maximização dos agrupamentos de escolas)
 
@@ -925,7 +925,7 @@ desc: |
 
 ---
 type: decreto
-id: Decreto-Lei nº 176/2014, de 12 de dezembro,
+id: Decreto-Lei nº 176/2014, de 12 de dezembro
 desc: |
   introduz a disciplina de Inglês no currículo, como disciplina
   obrigatória a partir do 3º ano de escolaridade e define a respetiva
@@ -937,7 +937,7 @@ about:
 
 ---
 type: decreto
-id: Decreto-Lei nº 79/2014, de 14 de maio,
+id: Decreto-Lei nº 79/2014, de 14 de maio
 desc: |
   altera o Decreto-Lei nº 43/2007, de 22 de fevereiro, habilitação
   profissional para o exercício da docência correspondente ao grau
@@ -950,7 +950,7 @@ desc: |
 type: directiva
 id: directiva 16
 year: 2015
-by: Ministério da Educação,
+by: Ministério da Educação
 desc: |
    (Novos) Programas e Metas Curriculares -- Português e Matemática.
 about:
@@ -974,7 +974,7 @@ desc: |
 ---
 type: directiva
 id: directiva 17
-by: ME/Direção-Geral de Educação,
+by: ME/Direção-Geral de Educação
 desc: |
   Orientações Curriculares para a Educação Pré-Escolar.
 about:
@@ -993,7 +993,7 @@ about:
 
 ---
 type: despacho
-id: Despacho nº 6478/2017, 26 de julho,
+id: Despacho nº 6478/2017, 26 de julho
 desc: |
   homologa o Perfil dos Alunos à Saída da Escolaridade Obrigatória.
 
@@ -1012,14 +1012,14 @@ about:
 
 ---
 type: decreto
-id: Decreto-Lei nº 55/2018, de 6 de julho,
+id: Decreto-Lei nº 55/2018, de 6 de julho
 desc: |
   reforma curricular dos ensinos básico e secundário (flexibilização
   curricular e Aprendizagens Essenciais).
 
 ---
 type: despacho
-id: Despacho nº 8476-A/2018, de 31 de agosto,
+id: Despacho nº 8476-A/2018, de 31 de agosto
 desc: |
   homologa as Aprendizagens Essenciais do Ensino Secundário (Cursos
   Científico-Humanísticos).
