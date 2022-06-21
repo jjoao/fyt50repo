@@ -12,15 +12,20 @@ about:
 
 # Poesia escondida
 
+## Objecto 
+
+![Documento reconstruído -- o original perdeu-se na voracidade do tempo.](habo-jj-poesia.png){width=12em}
+
+## O que é isto?
+
 Uma vez a minha filha (teria uns 7 anos) apareceu em casa com um
 papel minúsculo e olhava com grande cuidado para ele.
 
-![Documento reconstruído -- o original perdeu-se na voracidade do tempo.](habo-jj-poesia.png){width=12em}
 
 -- O que tens aí? \
 -- É uma poesia.  \
 -- ? \
--- A professora [Rosalina] escreveu no quadro um problema:
+-- A professora Rosalina escreveu no quadro um problema:
 "O canteiro do meu jardim, tem forma retangular. ..."
 e eu achei parecia uma poesia.
 
