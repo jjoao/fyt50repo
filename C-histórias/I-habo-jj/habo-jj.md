@@ -14,7 +14,7 @@ about:
 
 ## Objecto 
 
-![Documento reconstruído -- o original perdeu-se na voracidade do tempo.](habo-jj-poesia.png){width=12em}
+![Documento reconstruído -- o original perdeu-se antes de me lembrar de o guardar.](habo-jj-poesia.png){width=12em}
 
 ## O que é isto?
 
