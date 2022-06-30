@@ -1,3 +1,3 @@
 # repositório experimental gerado por ontologia em FS
 
-- [https://jjoao./fyt50rpo/docs](Repo)
+- [https://jjoao.github.io/fyt50rpo](Repo)
