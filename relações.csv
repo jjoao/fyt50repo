@@ -1,0 +1,25 @@
+
+@TAB
+
+ObjectProperty  :: inverseOf  :: domain :: range
+about           :: see doc    ::        :: temática
+# see doc         :: about      :: temática ::
+author          :: authorOf   ::        :: pessoa
+# authorOf        :: author     :: pessoa :: 
+durante governo :: teve ministro :: ministro :: governo
+teve ministro   :: durante governo :: governo ::ministro 
+by              :: wrote    ::        ::
+
+rdfs:subClassOf :: classe específica ::  ::
+#classe específica ::rdfs:subClassOf ::  ::
+rdf:type        :: instância  :: ::
+#instância        :: rdf:type :: ::
+
+@TAB
+
+DatatypeProperty :: domain   :: comment
+desc             ::          :: descrição
+year             ::          ::
+version          :: document ::
+title
+

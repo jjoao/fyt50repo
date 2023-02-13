@@ -1,0 +1,1108 @@
+@prefix ns1: <file:///home/jj/FYT50/fyt50repo/_.ttl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:Alexandre_Alberto_de_Sousa_Pinto a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "19 de junho de 1934" ;
+    ns1:início_de_mandato "24 de julho de 1933" ;
+    ns1:nome_completo "Alexandre Alberto de Sousa Pinto (1880–1982)" ;
+    ns1:ordem "58" .
+
+ns1:António_Carneiro_Pacheco a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:II_Oliveira_Salazar ;
+    ns1:fim_de_mandato "28 de agosto de 1940",
+        "9 de março de 1939" ;
+    ns1:início_de_mandato "18 de janeiro de 1936",
+        "23 de março de 1939" ;
+    ns1:nome_completo "António Faria Carneiro Pacheco (1887–1957)" ;
+    ns1:ordem "61" .
+
+ns1:Augusto_Santos_Silva a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "3 de julho de 2001" ;
+    ns1:início_de_mandato "14 de setembro de 2000" ;
+    ns1:nome_completo "Augusto Ernesto Santos Silva (1956–)" ;
+    ns1:ordem "90" .
+
+ns1:Caeiro_da_Mata a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "4 de fevereiro de 1947" ;
+    ns1:início_de_mandato "6 de setembro de 1944" ;
+    ns1:nome_completo "José Caeiro da Mata (1877–1963)" ;
+    ns1:ordem "63" .
+
+ns1:Carlos_Lloyd_Braga a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:III_Nobre_da_Costa ;
+    ns1:fim_de_mandato "22 de novembro de 1978" ;
+    ns1:início_de_mandato "29 de agosto de 1978" ;
+    ns1:nome_completo "Carlos Alberto Lloyd Braga (1928–1997)" ;
+    ns1:ordem "77" .
+
+ns1:Circular_n_17_DSDC_DEPEP_2007_de_10_de_outubro a ns1:circular ;
+    ns1:about ns1:curriculo ;
+    ns1:desc "Gestão do currículo na educação pré-escolar " .
+
+ns1:Circular_n_4_DGIDC_DSDC_2011_de_11_de_abril_de_2011_- a ns1:circular ;
+    ns1:about ns1:avaliação,
+        ns1:ensino_pré-escolar ;
+    ns1:desc "Avaliação na Educação Pré-Escolar " .
+
+ns1:Couto_dos_Santos a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "7 de dezembro de 1993" ;
+    ns1:início_de_mandato "19 de março de 1992" ;
+    ns1:nome_completo "António Fernando Couto dos Santos (1949–)" ;
+    ns1:ordem "86" .
+
+ns1:Cronologia_de_eventos_FYTid a ns1:cronologia ;
+    ns1:author ns1:Ana_Carolino,
+        ns1:Luís_Grosso_Correia,
+        ns1:Margarida_Marta ;
+    ns1:date ns1:Maio_de_2021 ;
+    ns1:description """Cronologia de eventos 
+Identidades, Democracia, Escola, Administração e Formação 
+Sistema Educativo Português Cronologia de Reformas Educativas 1974-2021<br/> 
+ 
+documento de trabalho """ ;
+    ns1:title ns1:Cronologia_de_eventos ;
+    ns1:transformação ns1:J.João ;
+    ns1:version "0.1" .
+
+ns1:Decreto-Lei_n_115-A_98_de_4_de_maio_1998 a ns1:decreto ;
+    ns1:about ns1:gestão_escolar ;
+    ns1:desc """regime de autonomia, administração e gestão das 
+escolas. (Agrupamentos de Escolas) """ .
+
+ns1:Decreto-Lei_n_137_2012_de_2_de_julho a ns1:decreto ;
+    ns1:desc "regime de autonomia das escolas (maximização dos agrupamentos de escolas) " .
+
+ns1:Decreto-Lei_n_139-A_90_de_28_de_abril_1990 a ns1:decreto ;
+    ns1:desc """Estatuto da Carreira Docente dos Educadores de Infância e dos 
+Professores dos Ensinos Básico e Secundário (Estatuto da Carreira 
+Docente). """ .
+
+ns1:Decreto-Lei_n_139_2012_de_5_julho a ns1:decreto ;
+    ns1:about ns1:ensino_pré-escolar ;
+    ns1:desc """Aumento do número mínimo de alunos por turma (de 24 para 
+28). (Pré-escolar, 25 alunos; 1º CEB de 20 para 24; 2º e 3º CEB 
+30 alunos; ) """ .
+
+ns1:Decreto-Lei_n_141_93_de_26_de_abril_1993 a ns1:decreto ;
+    ns1:desc "criação das direções regionais de educação. " .
+
+ns1:Decreto-Lei_n_147_97_de_11_de_junho_1997 a ns1:decreto ;
+    ns1:about ns1:ensino_pré-escolar ;
+    ns1:desc "Regime jurídico do desenvolvimento da Educação Pré-Escolar " .
+
+ns1:Decreto-Lei_n_172_91_de_10_de_maio_1991 a ns1:decreto ;
+    ns1:about ns1:gestão_escolar,
+        ns1:pré-escolar ;
+    ns1:desc """direção, administração e gestão dos estabelecimentos de educação 
+pré-escolar e dos ensinos básico e secundário. """ .
+
+ns1:Decreto-Lei_n_176_2014_de_12_de_dezembro a ns1:decreto ;
+    ns1:about ns1:curriculo,
+        ns1:disciplina_Inglês ;
+    ns1:desc """introduz a disciplina de Inglês no currículo, como disciplina 
+obrigatória a partir do 3º ano de escolaridade e define a respetiva 
+habilitação profissional para a docência do inglês no 1º ciclo 
+do ensino básico (novo grupo de recrutamento docente - 120). """ .
+
+ns1:Decreto-Lei_n_240_2001_de_30_de_agosto_2001 a ns1:decreto ;
+    ns1:desc """aprova o perfil geral de desempenho profissional do educador de 
+infância e dos professores dos ensinos básico e secundário. """ .
+
+ns1:Decreto-Lei_n_240_80_de_19_de_julho_1980 a ns1:decreto ;
+    ns1:about ns1:ensino_secundário ;
+    ns1:desc """reformulação dos cursos complementares do ensino secundário com a 
+instituição do 12º ano. """ .
+
+ns1:Decreto-Lei_n_255_98_de_11_de_agosto a ns1:decreto ;
+    ns1:desc """regula as condições em que os educadores de infância e os professores 
+dos ensinos básico e secundário, titulares de um grau de bacharel 
+ou equivalente, podem adquirir o grau académico de licenciado para 
+efeitos de prosseguimento de estudos. """ .
+
+ns1:Decreto-Lei_n_26_89_1989 a ns1:decreto ;
+    ns1:about ns1:escolas_profissionais ;
+    ns1:desc "criação de escolas profissionais. " .
+
+ns1:Decreto-Lei_n_270_75_de_30_de_maio_1975 a ns1:decreto ;
+    ns1:about ns1:serviço_cívico ;
+    ns1:desc "Serviço Cívico Estudantil (frequência voluntária). " .
+
+ns1:Decreto-Lei_n_270_98_de_1_de_setembro a ns1:decreto ;
+    ns1:desc "estatuto do aluno dos estabelecimentos do ensino público. " .
+
+ns1:Decreto-Lei_n_27_2006_de_10_de_fevereiro_2006 a ns1:decreto ;
+    ns1:desc """cria os grupos de recrutamento para efeitos de seleção e recrutamento 
+do pessoal docente da educação pré-escolar e dos ensinos básico 
+e secundário. """ .
+
+ns1:Decreto-Lei_n_286_89_de_29_de_agosto_1989 a ns1:decreto ;
+    ns1:desc "reforma curricular dos ensinos básico e secundário. " .
+
+ns1:Decreto-Lei_n_287_88_de_19_de_agosto a ns1:decreto ;
+    ns1:desc """regulamenta a profissionalização em serviço dos professores 
+pertencentes aos quadros, com nomeação provisória, dos ensinos 
+preparatório e secundário. """ .
+
+ns1:Decreto-Lei_n_290_98_de_17_de_setembro a ns1:decreto ;
+    ns1:desc "alteração ao Orçamento do Estado de 2002. " .
+
+ns1:Decreto-Lei_n_344_89_de_11_de_outubro_1989 a ns1:decreto ;
+    ns1:desc """regime jurídico da formação de educadores de infância e de 
+professores dos ensinos básico e secundário. """ .
+
+ns1:Decreto-Lei_n_369_2007_de_5_de_novembro_2007 a ns1:decreto ;
+    ns1:about ns1:A3ES,
+        ns1:avaliação_de_cursos ;
+    ns1:desc """institui a Agência de Avaliação e Acreditação do Ensino Superior 
+e aprova os seus Estatutos (A3ES). """ .
+
+ns1:Decreto-Lei_n_405_86_de_15_de_dezembro_1986 a ns1:decreto ;
+    ns1:desc """regula o processo de profissionalização em serviço dos professores 
+provisórios dos ensinos preparatório e secundário. """ .
+
+ns1:Decreto-Lei_n_40964_de_31_de_dezembro_de_1956 a ns1:decreto ;
+    ns1:desc "alargamento da escolaridade obrigatória para 4 anos para os rapazes. " .
+
+ns1:Decreto-Lei_n_42994_de_28_de_maio_de_1960 a ns1:decreto ;
+    ns1:desc "alargamento da escolaridade obrigatória para 4 anos para as raparigas. " .
+
+ns1:Decreto-Lei_n_43_2007_de_22_de_fevereiro_2007 a ns1:decreto ;
+    ns1:desc """regime jurídico de habilitação profissional para a docência na 
+educação pré-escolar e nos ensinos básico e secundário (torna 
+obrigatória a aquisição de habilitação profissional para o 
+exercício da docência correspondente ao grau de mestrado). """ .
+
+ns1:Decreto-Lei_n_43_89_de_3_de_fevereiro_1989 a ns1:decreto ;
+    ns1:desc """regime jurídico da autonomia e administração das escolas dos 2º 
+e 3º ciclos do ensino básico e do ensino secundário. """ .
+
+ns1:Decreto-Lei_n_45810_de_9_de_julho_de_1964 a ns1:decreto ;
+    ns1:desc "alargamento da escolaridade obrigatória para 6 anos para ambos os sexos. " .
+
+ns1:Decreto-Lei_n_46135_de_31_de_dezembro_1964 a ns1:decreto ;
+    ns1:about ns1:telescola ;
+    ns1:desc """criação do Instituto de Meios Áudio-Visuais de Ensino (e da "Telescola"). 
+ 
+A telescola, sistema de ensino via televisão, arrancou em Portugal 
+a 6 de janeiro de 1965, com programação produzida nos estúdios da 
+RTP do Monte da Virgem, no Porto. Os alunos eram acompanhados nos postos 
+de receção por monitores. A intenção era permitir o cumprimento 
+aos alunos da escolaridade obrigatória, na altura constituída pelos 
+quatro anos da Escola Primária e dois de Ciclo Preparatório. """ .
+
+ns1:Decreto-Lei_n_47430_de_2_de_janeiro_1967 a ns1:decreto ;
+    ns1:desc "criação do Ciclo Preparatório do Ensino Secundário. " .
+
+ns1:Decreto-Lei_n_513-T_79_de_26_de_dezembro_1979 a ns1:decreto ;
+    ns1:about ns1:ensino_superior,
+        ns1:politécnico ;
+    ns1:desc """define a rede de estabelecimentos de ensino superior politécnico, 
+que anteriormente se designava de curta duração. """ .
+
+ns1:Decreto-Lei_n_519-R2_79_de_29_de_dezembro_1979 a ns1:decreto ;
+    ns1:desc "Estatuto das Escolas Normais de Educadores de Infância. " .
+
+ns1:Decreto-Lei_n_519-T1_79_de_29_de_dezembro_1979 a ns1:decreto ;
+    ns1:desc """regime contratual de docentes além dos quadros dos ensinos 
+preparatório e secundário e regime da profissionalização em 
+exercício de docentes. """ .
+
+ns1:Decreto-Lei_n_538_79_de_29_de_dezembro_1979 a ns1:decreto ;
+    ns1:desc """obrigatoriedade e gratuitidade do então designado ensino básico -- 
+os 6 primeiros graus de escolaridade. """ .
+
+ns1:Decreto-Lei_n_542_79_de_14_de_dezembro_1979 a ns1:decreto ;
+    ns1:desc "Estatutos do Jardim de Infância " .
+
+ns1:Decreto-Lei_n_55_2018_de_6_de_julho a ns1:decreto ;
+    ns1:desc """reforma curricular dos ensinos básico e secundário (flexibilização 
+curricular e Aprendizagens Essenciais). """ .
+
+ns1:Decreto-Lei_n_59_86_de_21_de_março_1986 a ns1:decreto ;
+    ns1:desc """referencial genérico das atividades das escolas superiores de 
+educação em matéria de formação inicial de educadores de infância 
+e professores do ensino primário. """ .
+
+ns1:Decreto-Lei_n_6_2001_de_18_de_janeiro_2001 a ns1:decreto ;
+    ns1:desc "reforma curricular do ensino básico e Programas - Currículo Nacional " .
+
+ns1:Decreto-Lei_n_70_93_de_10_de_março_1993 a ns1:decreto ;
+    ns1:about ns1:escolas_profissionais ;
+    ns1:desc "Estabelece o regime de criação e funcionamento das escolas profissionais " .
+
+ns1:Decreto-Lei_n_735-A_74_de_21_de_dezembro_1974 a ns1:decreto ;
+    ns1:about ns1:ensino_secundário,
+        ns1:gestão_escolar ;
+    ns1:desc """regime jurídico dos órgãos de gestão das escolas dos ensinos 
+preparatório e secundário. """ .
+
+ns1:Decreto-Lei_n_74_2004_de_26_de_março_2004 a ns1:decreto ;
+    ns1:about ns1:ensino_secundário ;
+    ns1:desc "reforma curricular do ensino secundário " .
+
+ns1:Decreto-Lei_n_74_2006_de_24_de_março_2006 a ns1:decreto ;
+    ns1:about ns1:ensino_superior ;
+    ns1:desc """Aprova o regime jurídico dos graus e diplomas do ensino superior, 
+em desenvolvimento do disposto nos artigos 13º a 15º da Lei nº 
+46/86, de 14 de outubro (Lei de Bases do Sistema Educativo), alterada 
+pelas Leis nº 115/97, de 19 de setembro, e 49/2005, de 30 de agosto, 
+bem como o disposto no nº 4 do artigo 16.o da Lei nº 37/2003, de 22 
+de agosto (estabelece as bases do financiamento do ensino superior), 
+alterada pela Lei nº 49/2005, de 30 de agosto. """ .
+
+ns1:Decreto-Lei_n_75_2008_de_22_de_abril_2008 a ns1:decreto ;
+    ns1:about ns1:gestão_escolar ;
+    ns1:desc "regime de autonomia, administração e gestão das escolas (1ª alteração). " .
+
+ns1:Decreto-Lei_n_769-A_76_de_23_de_outubro_1976 a ns1:decreto ;
+    ns1:about ns1:gestão_escolar ;
+    ns1:desc "regulamentação gestão das escolas dos ensinos preparatório e secundário. " .
+
+ns1:Decreto-Lei_n_79_2014_de_14_de_maio a ns1:decreto ;
+    ns1:desc """altera o Decreto-Lei nº 43/2007, de 22 de fevereiro, habilitação 
+profissional para o exercício da docência correspondente ao grau 
+de mestre. """ .
+
+ns1:Decreto-Lei_n_7_2001_de_18_de_janeiro_2001 a ns1:decreto ;
+    ns1:about ns1:ensino_secundário ;
+    ns1:desc """reforma curricular do ensino secundário e Programas - Currículo 
+Nacional (suspenso em 2002) """ .
+
+ns1:Decreto-Lei_n_7_2003_de_15_de_janeiro_2003 a ns1:decreto ;
+    ns1:desc "criação dos conselhos municipais de educação. " .
+
+ns1:Decreto_Regulamentar_n_2_2008_de_10_de_janeiro_- a ns1:decreto ;
+    ns1:about ns1:avaliação_docente ;
+    ns1:desc "Avaliação de Desempenho Docente " .
+
+ns1:Decreto_Regulamentar_n_2_2010_de_23_de_junho a ns1:decreto ;
+    ns1:about ns1:avaliação_docente ;
+    ns1:desc "Avaliação do Desempenho dos Docentes " ;
+    ns1:year "2010" .
+
+ns1:Decretos-Leis_n_36507_e_36508_de_17_de_setembro_de_1947 a ns1:decreto ;
+    ns1:about ns1:ensino_secundário ;
+    ns1:desc "reforma do ensino secundário-liceal. " .
+
+ns1:Deliberação_n_1488_2000_de_15_de_dezembro_2000 a ns1:deliberação ;
+    ns1:desc """o INAFOP homologa os padrões de qualidade da formação inicial de 
+professores, sendo atribuído um peso às componentes de formação 
+convertido em unidades de crédito (deliberação interna, não 
+publicada em Diário da República). """ .
+
+ns1:Despacho_Normativo_n_140-A_78_de_22_de_junho_1978 a ns1:despacho ;
+    ns1:about ns1:ensino_secundário ;
+    ns1:desc "organização dos cursos complementares de ensino secundário. " .
+
+ns1:Despacho_Normativo_n_1_2006_de_16_de_dezembro_de_2005 a ns1:despacho ;
+    ns1:desc "percursos curriculares alternativos. " .
+
+ns1:Despacho_Normativo_n_338_93_1993 a ns1:despacho ;
+    ns1:about ns1:avaliação_de_alunos,
+        ns1:ensino_secundário ;
+    ns1:desc "Aprova o regime de avaliação dos alunos do ensino secundário " .
+
+ns1:Despacho_n_11120-A_2010_de_6_de_julho_- a ns1:despacho ;
+    ns1:desc """Altera o Despacho 13599/2006(2ªsérie), de 28 de Junho, relativo à 
+organização do ano letivo nos estabelecimentos públicos de educação 
+pré-escolar e dos ensinos básico e secundário. """ .
+
+ns1:Despacho_n_124_ME_91_de_31_de_julho_1991 a ns1:despacho ;
+    ns1:desc "homologação dos programas curriculares dos ensinos básico e secundário. " .
+
+ns1:Despacho_n_147-B_ME_96_de_8_de_julho_1996 a ns1:despacho ;
+    ns1:desc "criação dos Territórios Educativos de Intervenção Prioritária (TEIP). " .
+
+ns1:Despacho_n_19310_2002_de_29_de_julho_2002 a ns1:despacho ;
+    ns1:desc """Estabelece o calendário da educação pré-escolar distinto do restante 
+ensino básico """ .
+
+ns1:Despacho_n_5220_97_de_10_de_fevereiro_1997 a ns1:despacho ;
+    ns1:about ns1:ensino_pré-escolar ;
+    ns1:desc "Orientações Curriculares para a Educação Pré-escolar " .
+
+ns1:Despacho_n_6478_2017_26_de_julho a ns1:despacho ;
+    ns1:desc "homologa o Perfil dos Alunos à Saída da Escolaridade Obrigatória. " .
+
+ns1:Despacho_n_8476-A_2018_de_31_de_agosto a ns1:despacho ;
+    ns1:desc """homologa as Aprendizagens Essenciais do Ensino Secundário (Cursos 
+Científico-Humanísticos). """ .
+
+ns1:Despacho_n_9_180_2016_de_19_de_julho_- a ns1:despacho ;
+    ns1:about ns1:ensino_pré-escolar ;
+    ns1:desc "Reformulação das Orientações Curriculares para a Educação Pré-escolar " .
+
+ns1:Diamantino_Freitas_Gomes_Durão a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XII_Cavaco_Silva ;
+    ns1:fim_de_mandato "19 de março de 1992" ;
+    ns1:início_de_mandato "31 de outubro de 1991" ;
+    ns1:nome_completo "Diamantino Freitas Gomes Durão (1944–)" ;
+    ns1:ordem "85" .
+
+ns1:Eduardo_Henriques_da_Silva_Correia a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:I_Prov._Palma_Carlos ;
+    ns1:fim_de_mandato "17 de julho de 1974" ;
+    ns1:início_de_mandato "16 de maio de 1974" ;
+    ns1:nome_completo "Eduardo Henriques da Silva Correia (1915–1991)" ;
+    ns1:ordem "70" .
+
+ns1:Elvira_Fortunato a ns1:ministro_da_Ciência ;
+    ns1:durante_governo ns1:XXIII_Costa ;
+    ns1:fim_de_mandato ns1:presente ;
+    ns1:início_de_mandato "30 de março de 2022" ;
+    ns1:nome_completo "Elvira Maria Correia Fortunato (1964–)" ;
+    ns1:ordem "5" .
+
+ns1:Eusébio_Barbosa_Tamagnini_de_Matos_Encarnação a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "18 de janeiro de 1936" ;
+    ns1:início_de_mandato "23 de outubro de 1934" ;
+    ns1:nome_completo "Eusébio Barbosa Tamagnini de Matos Encarnação (1880–1972)" ;
+    ns1:ordem "60" .
+
+ns1:Fernando_Pires_de_Lima a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "7 de julho de 1955" ;
+    ns1:início_de_mandato "4 de fevereiro de 1947" ;
+    ns1:nome_completo "Fernando Andrade Pires de Lima (1908–1973)" ;
+    ns1:ordem "64" .
+
+ns1:Francisco_de_Paula_Leite_Pinto a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "4 de maio de 1961" ;
+    ns1:início_de_mandato "7 de julho de 1955" ;
+    ns1:nome_completo "Francisco de Paula Leite Pinto (1902–2000)" ;
+    ns1:ordem "65" .
+
+ns1:Fraústo_da_Silva a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "9 de junho de 1983" ;
+    ns1:início_de_mandato "12 de junho de 1982" ;
+    ns1:nome_completo "João José Rodiles Fraústo da Silva (1933–2022)" ;
+    ns1:ordem "81" .
+
+ns1:Graça_Carvalho a ns1:ministro_da_Ciência ;
+    ns1:durante_governo ns1:XVI_Santana_Lopes,
+        ns1:XV_Durão_Barroso ;
+    ns1:fim_de_mandato "12 de março de 2005" ;
+    ns1:início_de_mandato "6 de outubro de 2003" ;
+    ns1:nome_completo "Maria da Graça Martins da Silva Carvalho (1955–)" ;
+    ns1:ordem "2" .
+
+ns1:Guilherme_Oliveira_Martins a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XIV_Guterres ;
+    ns1:fim_de_mandato "14 de setembro de 2000" ;
+    ns1:início_de_mandato "25 de outubro de 1999" ;
+    ns1:nome_completo "Guilherme Waldemar Pereira de Oliveira Martins (1952–)" ;
+    ns1:ordem "89" .
+
+ns1:Gustavo_Cordeiro_Ramos a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:I_Oliveira_Salazar ;
+    ns1:fim_de_mandato "24 de julho de 1933" ;
+    ns1:início_de_mandato "11 de abril de 1933" ;
+    ns1:nome_completo "Gustavo Cordeiro Ramos (1888–1974)" .
+
+ns1:Hermano_Saraiva a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:III_Caetano,
+        ns1:II_Oliveira_Salazar ;
+    ns1:fim_de_mandato "15 de janeiro de 1970" ;
+    ns1:início_de_mandato "19 de agosto de 1968" ;
+    ns1:nome_completo "José Hermano Saraiva (1919–2012)" ;
+    ns1:ordem "68" .
+
+ns1:Inocêncio_Galvão_Teles a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "19 de agosto de 1968" ;
+    ns1:início_de_mandato "4 de dezembro de 1962" ;
+    ns1:nome_completo "Inocêncio Galvão Teles (1917–2010)" ;
+    ns1:ordem "67" .
+
+ns1:Isabel_Alçada a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XVIII_Sócrates ;
+    ns1:fim_de_mandato "21 de junho de 2011" ;
+    ns1:início_de_mandato "26 de outubro de 2009" ;
+    ns1:nome_completo "Maria Isabel Girão de Melo Veiga Vilar \"Alçada\" (1950–) " ;
+    ns1:ordem "95" .
+
+ns1:José_Augusto_Seabra a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:IX_Soares ;
+    ns1:fim_de_mandato "6 de novembro de 1985" ;
+    ns1:início_de_mandato "9 de junho de 1983" ;
+    ns1:nome_completo "José Augusto Baptista Lopes e Seabra (1937–2004)" ;
+    ns1:ordem "82" .
+
+ns1:José_David_Gomes_Justino a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XV_Durão_Barroso ;
+    ns1:fim_de_mandato "17 de julho de 2004" ;
+    ns1:início_de_mandato "6 de abril de 2002" ;
+    ns1:nome_completo "José David Gomes Justino (1953–)" ;
+    ns1:ordem "92" .
+
+ns1:José_Emílio_da_Silva a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:IV_Prov._Gonçalves,
+        ns1:V_Prov._Gonçalves ;
+    ns1:fim_de_mandato "19 de setembro de 1975" ;
+    ns1:início_de_mandato "26 de março de 1975" ;
+    ns1:nome_completo "José Emílio da Silva (1940–)" ;
+    ns1:ordem "74" .
+
+ns1:João_Miguel_Marques_da_Costa a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XXIII_Costa ;
+    ns1:fim_de_mandato ns1:presente ;
+    ns1:início_de_mandato "30 de março de 2022" ;
+    ns1:nome_completo "João Miguel Marques da Costa (1972–)" ;
+    ns1:ordem "99" .
+
+ns1:João_de_Deus_Pinheiro a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:IX_Soares,
+        ns1:X_Cavaco_Silva ;
+    ns1:fim_de_mandato "17 de agosto de 1987" ;
+    ns1:início_de_mandato "15 de fevereiro de 1985" ;
+    ns1:nome_completo "João de Deus Rogado Salvador Pinheiro (1945–)" ;
+    ns1:ordem "83" .
+
+ns1:Júlio_Domingos_Pedrosa_da_Luz_de_Jesus a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "6 de abril de 2002" ;
+    ns1:início_de_mandato "3 de julho de 2001" ;
+    ns1:nome_completo "Júlio Domingos Pedrosa da Luz de Jesus (1945–)" ;
+    ns1:ordem "91" .
+
+ns1:Lei_n_115_97_de_19_de_setembro_1997 a ns1:lei ;
+    ns1:about ns1:ensino_superior ;
+    ns1:desc """1ª alteração à Lei de Bases do Sistema Educativo no sentido de
+facultar o grau de licenciado ao ensino superior politécnico e exigir
+o grau de licenciado como requisito de acesso à profissão docente.
+""" .
+
+ns1:Lei_n_2025_de_17_de_julho_de_1947 a ns1:lei ;
+    ns1:about ns1:ensino_secundário ;
+    ns1:desc "reforma do ensino secundário-técnico. " .
+
+ns1:Lei_n_46_86_de_14_de_outubro_1986 a ns1:lei ;
+    ns1:desc "Lei de Bases do Sistema Educativo. " .
+
+ns1:Lei_n_49_2005_de_30_de_agosto_2005 a ns1:lei ;
+    ns1:about ns1:ensino_superior,
+        ns1:processo_de_Bolonha ;
+    ns1:desc """2ª alteração à Lei de Bases do Sistema Educativo, adequação do
+ensino superior ao Processo de Bolonha.
+""" .
+
+ns1:Lei_n_50_90_de_25_de_agosto_1990 a ns1:lei ;
+    ns1:desc """equipara a bacharel as qualificações obtidas pelos professores do 
+ensino primário e educadores de infância para efeito de prosseguimento 
+dos seus estudos. """ .
+
+ns1:Lei_n_5_73_de_25_de_julho_1973 a ns1:lei ;
+    ns1:about ns1:Veiga_Simão,
+        ns1:reforma_Veiga_Simão ;
+    ns1:desc "bases da reforma do sistema educativo (dita reforma Veiga Simão) " .
+
+ns1:Lei_n_5_77_de_1_de_fevereiro_1977 a ns1:lei ;
+    ns1:about ns1:ensino_pré-escolar ;
+    ns1:desc "Sistema Público de Educação Pré-Escolar " .
+
+ns1:Lei_n_5_97_de_10_de_fevereiro_1997 a ns1:lei ;
+    ns1:about ns1:ensino_pré-escolar ;
+    ns1:desc "Lei-Quadro da Educação Pré-Escolar. " .
+
+ns1:Lei_n_65_2015_de_3_de_julho_- a ns1:lei ;
+    ns1:desc """Estabelece a universalidade da educação pré-escolar para as crianças 
+a partir dos 4 anos de idade. """ .
+
+ns1:Lei_n_6_77_de_1_de_fevereiro_1977 a ns1:lei ;
+    ns1:desc "Cria as escolas normais de educadores de infância " .
+
+ns1:Lei_n_85_2009_de_27_de_agosto a ns1:lei ;
+    ns1:desc """3ª alteração à Lei de Bases do Sistema Educativo, estabelece
+o regime da escolaridade obrigatória de 12 anos para as crianças e
+jovens e consagra a universalidade da educação pré-escolar para as
+crianças a partir dos 5 anos de idade.
+""" .
+
+ns1:Luís_Eugénio_Caldas_Veiga_da_Cunha a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:V_Pintasilgo ;
+    ns1:fim_de_mandato "3 de janeiro de 1980" ;
+    ns1:início_de_mandato "1 de agosto de 1979" ;
+    ns1:nome_completo "Luís Eugénio Caldas Veiga da Cunha (1936–)" ;
+    ns1:ordem "79" .
+
+ns1:Luís_Francisco_Valente_de_Oliveira a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:IV_Mota_Pinto ;
+    ns1:fim_de_mandato "1 de agosto de 1979" ;
+    ns1:início_de_mandato "22 de novembro de 1978" ;
+    ns1:nome_completo "Luís Francisco Valente de Oliveira (1937–)" ;
+    ns1:ordem "78" .
+
+ns1:Lynce_de_Faria a ns1:ministro_da_Ciência ;
+    ns1:durante_governo ns1:XV_Durão_Barroso ;
+    ns1:fim_de_mandato "6 de outubro de 2003" ;
+    ns1:início_de_mandato "6 de abril de 2002" ;
+    ns1:nome_completo "Pedro Augusto Lynce de Faria (1943–)" ;
+    ns1:ordem "1" .
+
+ns1:Manuel_Heitor a ns1:ministro_da_Ciência ;
+    ns1:durante_governo ns1:XXII_Costa,
+        ns1:XXI_Costa ;
+    ns1:fim_de_mandato "30 de março de 2022" ;
+    ns1:início_de_mandato "26 de novembro de 2015" ;
+    ns1:nome_completo "Manuel Frederico Tojal de Valsassina Heitor (1958–)" ;
+    ns1:ordem "4" .
+
+ns1:Manuel_Lopes_de_Almeida a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "4 de dezembro de 1962" ;
+    ns1:início_de_mandato "4 de maio de 1961" ;
+    ns1:nome_completo "Manuel Lopes de Almeida (1900–1980)" ;
+    ns1:ordem "66" .
+
+ns1:Manuel_Rodrigues_Júnior a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "23 de março de 1939",
+        "23 de outubro de 1934" ;
+    ns1:início_de_mandato "19 de junho de 1934",
+        "9 de março de 1939" ;
+    ns1:nome_completo "Manuel Rodrigues Júnior (interino) (1889–1946)" ;
+    ns1:ordem "59" .
+
+ns1:Manuel_Rodrigues_de_Carvalho a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "26 de março de 1975" ;
+    ns1:início_de_mandato "4 de dezembro de 1974" ;
+    ns1:nome_completo "Manuel Rodrigues de Carvalho (1929–1999)" ;
+    ns1:ordem "73" .
+
+ns1:Manuela_Ferreira_Leite a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "28 de outubro de 1995" ;
+    ns1:início_de_mandato "7 de dezembro de 1993" ;
+    ns1:nome_completo "Maria Manuela Dias Ferreira Leite (1940–)" ;
+    ns1:ordem "87" .
+
+ns1:Margarida_Isabel_Mano_Tavares_Simões_Lopes a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XX_Passos_Coelho ;
+    ns1:fim_de_mandato "26 de novembro de 2015" ;
+    ns1:início_de_mandato "30 de outubro de 2015" ;
+    ns1:nome_completo "Margarida Isabel Mano  Tavares Simões Lopes (1963–)" ;
+    ns1:ordem "97" .
+
+ns1:Maria_de_Lurdes_Rodrigues a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XVII_Sócrates ;
+    ns1:fim_de_mandato "26 de outubro de 2009" ;
+    ns1:início_de_mandato "12 de março de 2005" ;
+    ns1:nome_completo "Maria de Lurdes Reis Rodrigues (1956–)" ;
+    ns1:ordem "94" .
+
+ns1:Maria_do_Carmo_Félix_da_Costa_Seabra a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XVI_Santana_Lopes ;
+    ns1:fim_de_mandato "12 de março de 2005" ;
+    ns1:início_de_mandato "17 de julho de 2004" ;
+    ns1:nome_completo "Maria do Carmo Félix da Costa Seabra (1955–)" ;
+    ns1:ordem "93" .
+
+ns1:Mariano_Gago a ns1:ministro_da_Ciência ;
+    ns1:durante_governo ns1:XVIII_Sócrates,
+        ns1:XVII_Sócrates ;
+    ns1:fim_de_mandato "21 de junho de 2011" ;
+    ns1:início_de_mandato "12 de março de 2005" ;
+    ns1:nome_completo "José Mariano Rebelo Pires Gago (1948–2015)" ;
+    ns1:ordem "3" .
+
+ns1:Marçal_Grilo a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XIII_Guterres ;
+    ns1:fim_de_mandato "25 de outubro de 1999" ;
+    ns1:início_de_mandato "28 de outubro de 1995" ;
+    ns1:nome_completo "Eduardo Carrega Marçal Grilo (1942–)" ;
+    ns1:ordem "88" .
+
+ns1:Mário_de_Figueiredo a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "6 de setembro de 1944" ;
+    ns1:início_de_mandato "28 de agosto de 1940" ;
+    ns1:nome_completo "Mário de Figueiredo (1890–1969)" ;
+    ns1:ordem "62" .
+
+ns1:Nuno_Paulo_de_Sousa_Arrobas_Crato a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XIX_Passos_Coelho ;
+    ns1:fim_de_mandato "30 de outubro de 2015" ;
+    ns1:início_de_mandato "21 de junho de 2011" ;
+    ns1:nome_completo "Nuno Paulo de Sousa Arrobas Crato (1952–)" ;
+    ns1:ordem "96" .
+
+ns1:Portaria_n_336_88_de_28_de_maio a ns1:portaria ;
+    ns1:desc """regulamenta a prática pedagógica dos cursos de formação inicial 
+de educadores de infância e de professores dos 1º e 2º ciclos do 
+ensino básico. """ .
+
+ns1:Portaria_n_634-A_77_de_4_de_outubro_1977 a ns1:portaria ;
+    ns1:about ns1:ensino_superior,
+        ns1:numerus_clausus ;
+    ns1:desc "normas de acesso ao ensino superior (numerus clausus). " .
+
+ns1:Portaria_n_725_77_de_23_de_novembro_1977 a ns1:portaria ;
+    ns1:about ns1:ano_propedêutico ;
+    ns1:desc "instituição do \"Ano Propedêutico do ensino superior\" a partir de 1977/1978. " .
+
+ns1:Portaria_n_850_87_de_3_de_novembro_Universidade_do_Porto_- a ns1:portaria ;
+    ns1:desc """criação do Instituto de Inovação Educacional (Decreto-Lei 3/87 de 3 
+de janeiro), extinto em 2002 (Decreto-Lei nº 208/2002 de 17 de Outubro) """ .
+
+ns1:Portaria_n_921_92_de_23_de_setembro_1992 a ns1:portaria ;
+    ns1:desc """estruturas de orientação educativa dos estabelecimentos de educação 
+pré-escolar e dos ensinos básico e secundário. """ .
+
+ns1:Resolução_do_Conselho_de_Ministros_n_48-D_2017 a ns1:resolução ;
+    ns1:about ns1:Plano_Nacional_de_Leitura ;
+    ns1:desc "Plano Nacional de Leitura 2017-2027 " ;
+    ns1:url "https://www.pnl2027.gov.pt/np4EN/file/35/resolucao.pdf" .
+
+ns1:Roberto_Carneiro a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XI_Cavaco_Silva ;
+    ns1:fim_de_mandato "31 de outubro de 1991" ;
+    ns1:início_de_mandato "17 de agosto de 1987" ;
+    ns1:nome_completo "Roberto Artur da Luz Carneiro (1947–)" ;
+    ns1:ordem "84" .
+
+ns1:Rui_dos_Santos_Grácio a ns1:ministro_da_Educação ;
+    ns1:nome_completo "Rui dos Santos Grácio (1921–1991)" .
+
+ns1:Sottomayor_Cardia a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:II_Soares,
+        ns1:I_Soares ;
+    ns1:fim_de_mandato "29 de agosto de 1978" ;
+    ns1:início_de_mandato "23 de julho de 1976" ;
+    ns1:nome_completo "Mário Augusto Sottomayor Leal Cardia (1941–2006)" ;
+    ns1:ordem "76" .
+
+ns1:Tiago_Brandão_Rodrigues a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:XXII_Costa,
+        ns1:XXI_Costa ;
+    ns1:fim_de_mandato "30 de março de 2022" ;
+    ns1:início_de_mandato "26 de novembro de 2015" ;
+    ns1:nome_completo "Tiago Brandão Rodrigues (1977–)" ;
+    ns1:ordem "98" .
+
+ns1:Vasco_Gonçalves a ns1:ministro_da_Educação ;
+    ns1:fim_de_mandato "4 de dezembro de 1974" ;
+    ns1:início_de_mandato "29 de novembro de 1974" ;
+    ns1:nome_completo "Vasco dos Santos Gonçalves (1921–2005)" ;
+    ns1:ordem "72" .
+
+ns1:Vitorino_Magalhães_Godinho a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:III_Prov._Gonçalves,
+        ns1:II_Prov._Gonçalves ;
+    ns1:fim_de_mandato "29 de novembro de 1974" ;
+    ns1:início_de_mandato "17 de julho de 1974" ;
+    ns1:nome_completo "Vitorino Barbosa de Magalhães Godinho (1918–2011)" ;
+    ns1:ordem "71" .
+
+ns1:Vítor_Alves a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:VI_Prov._Pinheiro_de_Azevedo ;
+    ns1:fim_de_mandato "23 de julho de 1976" ;
+    ns1:início_de_mandato "19 de setembro de 1975" ;
+    ns1:nome_completo "Vítor Manuel Rodrigues Alves (1935–2011)" ;
+    ns1:ordem "75" .
+
+ns1:Vítor_Crespo a ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:VIII_Pinto_Balsemão,
+        ns1:VII_Pinto_Balsemão,
+        ns1:VI_Sá_Carneiro ;
+    ns1:fim_de_mandato "12 de junho de 1982" ;
+    ns1:início_de_mandato "3 de janeiro de 1980" ;
+    ns1:nome_completo "Vítor Pereira Crespo (1932–2014)" ;
+    ns1:ordem "80" .
+
+ns1:about a owl:ObjectProperty ;
+    rdfs:range ns1:temática ;
+    owl:inverseOf ns1:see_doc .
+
+ns1:desc a owl:DatatypeProperty ;
+    ns1:comment ns1:descrição .
+
+ns1:desigualdades_sociais rdfs:subClassOf ns1:gerais .
+
+ns1:diploma_1 ns1:about ns1:ensino_secundário ;
+    ns1:desc """início do curso unificado do ensino secundário (7º a 9º ano) 
+pelo 7º ano, em 1975/76 """ ;
+    ns1:nota "(diploma legal por identificar)." .
+
+ns1:diploma_2 ns1:about ns1:curriculo_ensino_secundário,
+        ns1:cursos_tecnológicos ;
+    ns1:desc "Revisão curricular do ensino secundário - cursos tecnológicos " ;
+    ns1:nota "(diploma legal por identificar)." .
+
+ns1:directiva_1 a ns1:directiva,
+        ns1:projecto ;
+    ns1:about ns1:curriculo,
+        ns1:ensino_básico ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc """projeto "Reflexão participada sobre o currículo do ensino básico" 
+ou projeto dito de flexibilização curricular. """ ;
+    ns1:year "1996" .
+
+ns1:directiva_10 a ns1:directiva ;
+    ns1:about ns1:Matemática ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "Plano de Ação para a Matemática " ;
+    ns1:year "2006" .
+
+ns1:directiva_11 a ns1:directiva ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "Plano Tecnológico de Educação " ;
+    ns1:year "2007" .
+
+ns1:directiva_12 a ns1:directiva ;
+    ns1:about ns1:Matemática,
+        ns1:curriculo ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "Novo Programa Curricular de Matemática " ;
+    ns1:year "2007" .
+
+ns1:directiva_13 a ns1:directiva ;
+    ns1:about ns1:Português,
+        ns1:curriculo ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "Novo Programa Curricular de Português " .
+
+ns1:directiva_14 a ns1:directiva ;
+    ns1:about ns1:curriculo,
+        ns1:ensino_básico ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "Suspensão do Currículo Nacional do Ensino Básico " ;
+    ns1:year "2011" .
+
+ns1:directiva_15 a ns1:directiva ;
+    ns1:about ns1:Metas_Curriculares ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "programa de Metas Curriculares - do 1º ao 12º ano do ensino básico " ;
+    ns1:year "2013" .
+
+ns1:directiva_16 a ns1:directiva ;
+    ns1:about ns1:Matemática,
+        ns1:Metas_Curriculares,
+        ns1:Português,
+        ns1:curriculo ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "(Novos) Programas e Metas Curriculares -- Português e Matemática. " ;
+    ns1:year "2015" .
+
+ns1:directiva_17 a ns1:directiva ;
+    ns1:about ns1:ensino_pré-escolar ;
+    ns1:by "ME/Direção-Geral de Educação" ;
+    ns1:desc "Orientações Curriculares para a Educação Pré-Escolar. " .
+
+ns1:directiva_2 a ns1:directiva ;
+    ns1:about ns1:ensino_secundário ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "projeto \"Revisão participada do currículo\" do ensino secundário. " .
+
+ns1:directiva_3 a ns1:directiva ;
+    ns1:about ns1:ensino_básico ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc ns1:Documento_orientador_das_políticas_para_o_ensino_básico ;
+    ns1:year "1998" .
+
+ns1:directiva_4 a ns1:directiva ;
+    ns1:about ns1:ensino_secundário ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc ns1:Documento_orientador_das_políticas_para_o_ensino_secundário ;
+    ns1:year "1998" .
+
+ns1:directiva_5 a ns1:directiva,
+        ns1:projecto ;
+    ns1:about ns1:Novas_Oportunidades ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc """criação de centros de Reconhecimento, Validação e Certificação 
+de Competências ("Novas Oportunidades"..., hoje "Qualifica"). """ ;
+    ns1:year "2001" .
+
+ns1:directiva_6 a ns1:directiva ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "Escola a tempo inteiro (1º ciclo do ensino básico) " ;
+    ns1:year "2005" .
+
+ns1:directiva_7 a ns1:directiva ;
+    ns1:about ns1:curriculo,
+        ns1:disciplina_Inglês ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "Inglês no 1º CEB como atividade extracurricular (AEC) " .
+
+ns1:directiva_8 a ns1:directiva ;
+    ns1:about ns1:Novas_Oportunidades ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "programa \"Novas Oportunidades\". " ;
+    ns1:year "2006" .
+
+ns1:directiva_9 a ns1:directiva ;
+    ns1:about ns1:Plano_Nacional_de_Leitura ;
+    ns1:by ns1:Ministério_da_Educação ;
+    ns1:desc "Plano Nacional de Leitura " ;
+    ns1:year "2006" .
+
+ns1:formação rdfs:subClassOf ns1:gerais .
+
+ns1:geração_Parva a ns1:movimento_protesto ;
+    ns1:desc """A designação de geração Parva surgiu na sequência da música 
+"Parva que sou", Deolinda, interpretada pela primeira vez pelo grupo 
+nos concertos nos Coliseus do Porto e Lisboa em janeiro de 2011, 
+tornou-se desde então em Portugal num hino de constestação da 
+geração de 30 anos, frustada, por ter estudado, mas não conseguir 
+emprego e não ter perspetivas de futuro com a crise económica. """ ;
+    ns1:year "2011" .
+
+ns1:geração_Rasca a ns1:movimento_protesto ;
+    ns1:desc "Movimento antipropinas -- \"geração à rasca\" " ;
+    ns1:year "1994" .
+
+ns1:habo-jj a ns1:história_à_boleia ;
+    ns1:_body-format_ ns1:md ;
+    ns1:about ns1:filhos,
+        ns1:poesia ;
+    ns1:author ns1:J.João ;
+    ns1:body """# Canteiro retangular 
+ 
+## Objecto 
+ 
+![Documento reconstruído - o original foi parar à máquina de lavar num bolso de vestido.](habo-jj-poesia.png){width=12em} 
+ 
+## O que é isto? 
+ 
+Uma vez a minha filha (teria uns 7 anos) apareceu em casa com um 
+papel minúsculo e olhava com grande cuidado para ele. 
+ 
+ 
+-- O que tens aí?   
+-- É uma poesia.    
+-- ?   
+-- A professora Rosalina escreveu no quadro um problema: 
+"O canteiro do meu jardim, tem forma retangular. ..." 
+e eu achei que parecia uma poesia. 
+ 
+E efectivamente escreveu no papelito:  
+"O canteiro do meu jardim   
+tem forma retangular   
+de dia e de noite   
+dá-lhe o luar." 
+ 
+-- E a professora?   
+-- Disse que é importante saber encontrar a poesia.   
+ 
+Parece-me que, ao contrário da versão oficial, aprendemos muito mais 
+com os nossos filhos do que o inverso. Mesmo quando eles são pequenos. 
+ 
+Já me esqueci de toneladas de coisas, 
+mas quando menos espero vem-me à lembrança a importância 
+de procurar poesia escondida. E às vezes outras coisas 
+escondidas. """^^ns1:md ;
+    ns1:title ns1:História_de_Objecto_-_Poesia_escondida .
+
+ns1:história_de_vida rdfs:subClassOf ns1:história .
+
+ns1:investigador rdfs:subClassOf ns1:pessoa .
+
+ns1:manifestações_de_professores_2008 a ns1:manifestação ;
+    ns1:desc "Grandes manifestações de professores a 8 de março e a 8 de novembro. " .
+
+ns1:metas_de_aprendizagem_2010 a ns1:proposta_de_actividades_curriculares ;
+    ns1:about ns1:curriculo,
+        ns1:ensino_básico ;
+    ns1:desc """Metas de Aprendizagem (ensino básico - propostas de atividades 
+curriculares de adesão voluntária). """ ;
+    ns1:year "2010" .
+
+ns1:movimento_de_protesto rdfs:subClassOf ns1:movimento .
+
+ns1:objectividade_política rdfs:subClassOf ns1:traços .
+
+ns1:retornados rdfs:subClassOf ns1:gerais .
+
+ns1:version a owl:DatatypeProperty ;
+    rdfs:domain ns1:document .
+
+ns1:year a owl:DatatypeProperty .
+
+rdfs:subClassOf a owl:ObjectProperty ;
+    owl:inverseOf ns1:classe_específica .
+
+ns1:A3ES a ns1:instituição .
+
+ns1:III_Nobre_da_Costa a ns1:governo .
+
+ns1:III_Prov._Gonçalves a ns1:governo .
+
+ns1:II_Prov._Gonçalves a ns1:governo .
+
+ns1:II_Soares a ns1:governo .
+
+ns1:IV_Mota_Pinto a ns1:governo .
+
+ns1:IV_Prov._Gonçalves a ns1:governo .
+
+ns1:I_Oliveira_Salazar a ns1:governo .
+
+ns1:I_Prov._Palma_Carlos a ns1:governo .
+
+ns1:I_Soares a ns1:governo .
+
+ns1:VIII_Pinto_Balsemão a ns1:governo .
+
+ns1:VII_Pinto_Balsemão a ns1:governo .
+
+ns1:VI_Prov._Pinheiro_de_Azevedo a ns1:governo .
+
+ns1:VI_Sá_Carneiro a ns1:governo .
+
+ns1:V_Pintasilgo a ns1:governo .
+
+ns1:V_Prov._Gonçalves a ns1:governo .
+
+ns1:Veiga_Simão a ns1:ministro,
+        ns1:ministro_da_Educação ;
+    ns1:durante_governo ns1:III_Caetano ;
+    ns1:fim_de_mandato "25 de abril de 1974" ;
+    ns1:início_de_mandato "15 de janeiro de 1970" ;
+    ns1:nome_completo "José Veiga Simão (1929–2014)" ;
+    ns1:ordem "69" .
+
+ns1:XIII_Guterres a ns1:governo .
+
+ns1:XII_Cavaco_Silva a ns1:governo .
+
+ns1:XIV_Guterres a ns1:governo .
+
+ns1:XIX_Passos_Coelho a ns1:governo .
+
+ns1:XI_Cavaco_Silva a ns1:governo .
+
+ns1:XX_Passos_Coelho a ns1:governo .
+
+ns1:X_Cavaco_Silva a ns1:governo .
+
+ns1:author a owl:ObjectProperty ;
+    rdfs:range ns1:pessoa ;
+    owl:inverseOf ns1:authorOf .
+
+ns1:authorOf a owl:ObjectProperty ;
+    rdfs:domain ns1:pessoa ;
+    owl:inverseOf ns1:author .
+
+ns1:avaliação_de_cursos rdfs:subClassOf ns1:avaliação .
+
+ns1:cronologia rdfs:subClassOf ns1:document .
+
+ns1:curriculo_ensino_secundário rdfs:subClassOf ns1:curriculo .
+
+ns1:cursos_tecnológicos rdfs:subClassOf ns1:tipos_de_ensino .
+
+ns1:deliberação rdfs:subClassOf ns1:legislação .
+
+ns1:durante_governo a owl:ObjectProperty ;
+    rdfs:domain ns1:ministro ;
+    rdfs:range ns1:governo ;
+    owl:inverseOf ns1:teve_ministro .
+
+ns1:episódio rdfs:subClassOf ns1:história .
+
+ns1:evento rdfs:subClassOf ns1:FYT-topic .
+
+ns1:história_à_boleia rdfs:subClassOf ns1:episódio .
+
+ns1:manifestação rdfs:subClassOf ns1:evento .
+
+ns1:movimento rdfs:subClassOf ns1:FYT-topic .
+
+ns1:numerus_clausus rdfs:subClassOf ns1:temática .
+
+ns1:politécnico rdfs:subClassOf ns1:tipos_de_ensino .
+
+ns1:processo_de_Bolonha rdfs:subClassOf ns1:temática .
+
+ns1:pré-escolar rdfs:subClassOf ns1:tipos_de_ensino .
+
+ns1:telescola rdfs:subClassOf ns1:temática .
+
+ns1:teve_ministro a owl:ObjectProperty ;
+    rdfs:domain ns1:governo ;
+    rdfs:range ns1:ministro ;
+    owl:inverseOf ns1:durante_governo .
+
+ns1:traços rdfs:subClassOf ns1:temática .
+
+ns1:III_Caetano a ns1:governo .
+
+ns1:II_Oliveira_Salazar a ns1:governo .
+
+ns1:IX_Soares a ns1:governo .
+
+ns1:Metas_Curriculares a ns1:programa ;
+    rdfs:subClassOf ns1:temática .
+
+ns1:Novas_Oportunidades a ns1:programa ;
+    owl:sameAs ns1:Qualifica .
+
+ns1:Plano_Nacional_de_Leitura a ns1:programa ;
+    rdfs:subClassOf ns1:temática .
+
+ns1:Português rdfs:subClassOf ns1:disciplina .
+
+ns1:XVIII_Sócrates a ns1:governo .
+
+ns1:XVII_Sócrates a ns1:governo .
+
+ns1:XVI_Santana_Lopes a ns1:governo .
+
+ns1:XXIII_Costa a ns1:governo .
+
+ns1:XXII_Costa a ns1:governo .
+
+ns1:XXI_Costa a ns1:governo .
+
+ns1:avaliação_docente rdfs:subClassOf ns1:avaliação .
+
+ns1:circular rdfs:subClassOf ns1:legislação .
+
+ns1:disciplina_Inglês rdfs:subClassOf ns1:disciplina .
+
+ns1:escolas_profissionais rdfs:subClassOf ns1:tipos_de_ensino .
+
+ns1:história rdfs:subClassOf ns1:document .
+
+ns1:Matemática rdfs:subClassOf ns1:disciplina .
+
+ns1:XV_Durão_Barroso a ns1:governo .
+
+ns1:avaliação rdfs:subClassOf ns1:temática .
+
+ns1:disciplina rdfs:subClassOf ns1:temática .
+
+ns1:gerais rdfs:subClassOf ns1:temática .
+
+ns1:document rdfs:subClassOf ns1:FYT-topic .
+
+ns1:ensino_básico rdfs:subClassOf ns1:tipos_de_ensino .
+
+ns1:pessoa rdfs:subClassOf ns1:FYT-topic .
+
+ns1:ensino_superior rdfs:subClassOf ns1:tipos_de_ensino .
+
+ns1:gestão_escolar rdfs:subClassOf ns1:temática .
+
+ns1:ministro rdfs:subClassOf ns1:pessoa .
+
+ns1:ministro_da_Ciência rdfs:subClassOf ns1:ministro .
+
+ns1:portaria rdfs:subClassOf ns1:legislação .
+
+ns1:legislação rdfs:subClassOf ns1:document .
+
+ns1:tipos_de_ensino rdfs:subClassOf ns1:temática .
+
+ns1:curriculo rdfs:subClassOf ns1:temática .
+
+ns1:despacho rdfs:subClassOf ns1:legislação .
+
+ns1:ensino_secundário rdfs:subClassOf ns1:tipos_de_ensino .
+
+ns1:lei rdfs:subClassOf ns1:legislação .
+
+ns1:temática rdfs:subClassOf ns1:FYT-topic .
+
+ns1:directiva rdfs:subClassOf ns1:legislação .
+
+ns1:governo rdfs:subClassOf ns1:FYT-topic .
+
+ns1:ministro_da_Educação rdfs:subClassOf ns1:ministro .
+
+ns1:decreto rdfs:subClassOf ns1:legislação .
+

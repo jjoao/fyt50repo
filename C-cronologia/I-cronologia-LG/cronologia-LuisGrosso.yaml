@@ -1,7 +1,7 @@
 ---
 id: Cronologia de eventos FYTid
 title: Cronologia de eventos
-description: |
+desc: |
    Cronologia de eventos
    Identidades, Democracia, Escola, Administração e Formação
    Sistema Educativo Português Cronologia de Reformas Educativas 1974-2021<br/>
@@ -27,6 +27,9 @@ desc: |
   reforma do ensino secundário-liceal.
 about:
   - ensino secundário
+url:
+  - https://dre.tretas.org/dre/221179/decreto-lei-36507-de-17-de-setembro
+  - https://dre.tretas.org/dre/221183/decreto-36508-de-17-de-setembro
 
 ---
 type: lei
@@ -35,6 +38,8 @@ desc: |
   reforma do ensino secundário-técnico.
 about:
   - ensino secundário
+url: https://dre.tretas.org/dre/202627/lei-2025-de-19-de-junho
+nota: url tem data diferente do original
 
 ---
 ### ano: 1956
@@ -44,6 +49,7 @@ type: decreto
 id: Decreto-Lei nº 40964, de 31 de dezembro de 1956
 desc: |
   alargamento da escolaridade obrigatória para 4 anos para os rapazes.
+url: https://dre.tretas.org/dre/103980/decreto-lei-40964-de-31-de-dezembro
 
 ---
 ### ano: 1960
@@ -53,6 +59,7 @@ type: decreto
 id: Decreto-Lei nº 42994, de 28 de maio de 1960
 desc: |
   alargamento da escolaridade obrigatória para 4 anos para as raparigas.
+url: https://dre.tretas.org/dre/240108/decreto-lei-42994-de-28-de-maio
 
 ---
 ### ano: 1964
@@ -63,6 +70,8 @@ id: Decreto-Lei nº 45810, de 9 de julho de 1964
 desc: |
   alargamento da escolaridade obrigatória para 6 anos para ambos os sexos.
 
+url: https://dre.tretas.org/dre/241079/decreto-lei-45810-de-9-de-julho
+
 ---
 type: decreto
 id: Decreto-Lei nº 46135, de 31 de dezembro, 1964
@@ -72,21 +81,28 @@ desc: |
   A telescola, sistema de ensino via televisão, arrancou em Portugal
   a 6 de janeiro de 1965, com programação produzida nos estúdios da
   RTP do Monte da Virgem, no Porto. Os alunos eram acompanhados nos postos
-  de receção por monitores. A intenção era permitir o cumprimento
-  aos alunos da escolaridade obrigatória, na altura constituída pelos
+  de receção por monitores. A intenção era permitir aos alunos o cumprimento
+  da escolaridade obrigatória, na altura constituída pelos
   quatro anos da Escola Primária e dois de Ciclo Preparatório.
 
 about:
   - telescola
+
+url: 
+  - https://dre.tretas.org/dre/205825/decreto-lei-46135-de-31-de-dezembro
+  - https://dre.tretas.org/dre/205827/decreto-lei-46136-de-31-de-dezembro
+
 
 ---
 ### ano: 1967
 
 ---
 type: decreto
-id: Decreto-Lei nº 47430, de 2 de janeiro, 1967
+fixme-id: Decreto-Lei nº 47430, de 2 de janeiro, 1967
+id: Decreto-Lei nº 47480, de 2 de janeiro, 1967
 desc: |
   criação do Ciclo Preparatório do Ensino Secundário.
+url: https://dre.tretas.org/dre/104001/decreto-lei-47480-de-2-de-janeiro
 
 ---
 ### ano: 1973
@@ -100,6 +116,7 @@ about:
   - Veiga Simão:
       type: ministro
   - reforma Veiga Simão
+url: https://dre.tretas.org/dre/33239/lei-5-73-de-25-de-julho
 
 ---
 ### ano: 1974
@@ -113,6 +130,7 @@ desc: |
 about:
   - gestão escolar
   - ensino secundário
+url: https://dre.tretas.org/dre/225840/decreto-lei-735-A-74-de-21-de-dezembro
 
 ---
 ### ano: 1975
@@ -122,6 +140,10 @@ type: decreto
 id: Decreto-Lei nº 270/75, de 30 de maio, 1975
 desc: |
   Serviço Cívico Estudantil (frequência voluntária).
+about:
+  - serviço cívico
+
+url: https://dre.tretas.org/dre/232535/decreto-lei-270-75-de-30-de-maio
 
 ---
 id: diploma 1
@@ -143,6 +165,8 @@ desc: |
 about:
   - gestão escolar
 
+url: https://dre.tretas.org/dre/29458/decreto-lei-769-A-76-de-23-de-outubro
+
 ---
 ### ano: 1977
 
@@ -155,13 +179,18 @@ about:
   - numerus clausus
   - ensino superior
 
+url: https://dre.tretas.org/dre/215854/portaria-634-A-77-de-4-de-outubro
+
 ---
-type: portaria
-id: Portaria nº 725/77, de 23 de novembro, 1977
+type: decreto
+fixme-type: portaria
+fixme-id: Portaria nº 725/77, de 23 de novembro, 1977
 desc: |
   instituição do "Ano Propedêutico do ensino superior" a partir de 1977/1978.
 about:
   - ano propedêutico
+id: Decreto-lei nº 491/77 de 23 de Novembro
+url: https://dre.tretas.org/dre/215766/decreto-lei-491-77-de-23-de-novembro
 
 ---
 type: lei
@@ -170,12 +199,14 @@ desc: |
   Sistema Público de Educação Pré-Escolar
 about:
  - ensino pré-escolar
+url: https://dre.tretas.org/dre/79534/lei-5-77-de-1-de-fevereiro
 
 ---
 type: lei
 id: Lei nº 6/77 de 1 de fevereiro , 1977
 desc: |
   Cria as escolas normais de educadores de infância
+url: https://dre.tretas.org/dre/114350/lei-6-77-de-1-de-fevereiro
 
 ---
 ### ano: 1978
@@ -187,6 +218,8 @@ desc: |
   organização dos cursos complementares de ensino secundário.
 about:
   - ensino secundário
+
+url: https://dre.tretas.org/dre/201936/despacho-normativo-140-A-78-de-22-de-junho
 
 ---
 ### ano: 1979
@@ -200,6 +233,9 @@ desc: |
   obrigatoriedade e gratuitidade do então designado ensino básico --
   os 6 primeiros graus de escolaridade.
 
+url: https://dre.tretas.org/dre/59848/decreto-lei-538-79-de-31-de-dezembro
+nota: FIXME data errada; pode nao bater certo
+
 ---
 type: decreto
 id: Decreto-Lei nº 513-T/79, de 26 de dezembro, 1979
@@ -209,6 +245,7 @@ desc: |
 about:
   - ensino superior
   - politécnico
+url: https://dre.pt/dre/detalhe/decreto-lei/513-t-1979-430025
 
 ---
 type: decreto
@@ -217,18 +254,21 @@ desc: |
   regime contratual de docentes além dos quadros dos ensinos
   preparatório e secundário e regime da profissionalização em
   exercício de docentes.
+url: https://dre.tretas.org/dre/208223/decreto-lei-519-T1-79-de-29-de-dezembro
 
 ---
 type: decreto
 id: Decreto-Lei nº 519-R2/79, de 29 de dezembro, 1979
 desc: |
   Estatuto das Escolas Normais de Educadores de Infância.
+url: https://dre.tretas.org/dre/114352/decreto-lei-519-R2-79-de-29-de-dezembro
 
 ---
 type: decreto
 id: Decreto-Lei nº 542/79, de 14 de dezembro, 1979
 desc: |
   Estatutos do Jardim de Infância
+url: https://dre.pt/dre/detalhe/decreto-lei/542-1979-230889
 
 ---
 ### ano: 1980
@@ -241,7 +281,8 @@ desc: |
   instituição do 12º ano.
 about:
   - ensino secundário
-
+  - ano 12
+url: https://dre.pt/dre/detalhe/decreto-lei/240-1980-472347
 ---
 ### ano: 1986
 
@@ -252,12 +293,15 @@ desc: |
   referencial genérico das atividades das escolas superiores de
   educação em matéria de formação inicial de educadores de infância
   e professores do ensino primário.
-
+url: https://dre.tretas.org/dre/14471/decreto-lei-59-86-de-21-de-marco
 ---
 type: lei
 id: Lei nº 46/86, de 14 de outubro, 1986
 desc: |
   Lei de Bases do Sistema Educativo.
+url: 
+  - https://dre.tretas.org/dre/35639/lei-46-86-de-14-de-outubro
+  - https://dre.pt/dre/detalhe/lei/46-1986-222418
 
 ---
 type: decreto
@@ -266,18 +310,24 @@ desc: |
   regula o processo de profissionalização em serviço dos professores
   provisórios dos ensinos preparatório e secundário.
 
+url: https://dre.tretas.org/dre/8447/decreto-lei-405-86-de-5-de-dezembro
+
 ---
 ### ano: 1987
 
 ---
 type: portaria
 id: Portaria nº 850/87, de 3 de novembro, Universidade do Porto -
+about:
+  - FLUP
 desc: |
   cursos de formação inicial de professores (regimes integrados em
   licenciatura e transitório).
 desc: |
   criação do Instituto de Inovação Educacional (Decreto-Lei 3/87 de 3
   de janeiro), extinto em 2002 (Decreto-Lei nº 208/2002 de 17 de Outubro)
+
+url: https://dre.tretas.org/dre/45752/portaria-850-87-de-3-de-novembro
 
 ---
 ### ano: 1988
@@ -290,6 +340,8 @@ desc: |
   de educadores de infância e de professores dos 1º e 2º ciclos do
   ensino básico.
 
+url: https://dre.tretas.org/dre/75659/portaria-336-88-de-28-de-maio
+
 ---
 type: decreto
 id: Decreto-Lei nº 287/88, de 19 de agosto, 
@@ -297,6 +349,8 @@ desc: |
   regulamenta a profissionalização em serviço dos professores
   pertencentes aos quadros, com nomeação provisória, dos ensinos
   preparatório e secundário.
+
+url: https://dre.pt/dre/detalhe/decreto-lei/287-1988-380135
 
 ---
 ### ano: 1989
@@ -308,11 +362,14 @@ desc: |
   regime jurídico da autonomia e administração das escolas dos 2º
   e 3º ciclos do ensino básico e do ensino secundário.
 
+url: https://dre.tretas.org/dre/22784/decreto-lei-43-89-de-3-de-fevereiro
+
 ---
 type: decreto
 id: Decreto-Lei nº 286/89, de 29 de agosto, 1989
 desc: |
   reforma curricular dos ensinos básico e secundário.
+url: https://dre.tretas.org/dre/37328/decreto-lei-286-89-de-29-de-agosto
 
 ---
 type: decreto
@@ -321,6 +378,8 @@ desc: |
   regime jurídico da formação de educadores de infância e de
   professores dos ensinos básico e secundário.
 
+url: https://dre.tretas.org/dre/37953/decreto-lei-344-89-de-11-de-outubro
+
 ---
 type: decreto
 id: Decreto-Lei nº 26/89, 1989
@@ -328,6 +387,8 @@ desc: |
   criação de escolas profissionais.
 about:
   - escolas profissionais
+
+url: https://dre.tretas.org/dre/22438/decreto-lei-26-89-de-21-de-janeiro
 
 ---
 ### ano: 1990
@@ -340,6 +401,8 @@ desc: |
   Professores dos Ensinos Básico e Secundário (Estatuto da Carreira
   Docente).
 
+url: https://dre.tretas.org/dre/20534/decreto-lei-139-A-90-de-28-de-abril
+
 ---
 type: lei
 id: Lei nº 50/90, de 25 de agosto, 1990
@@ -347,6 +410,8 @@ desc: |
   equipara a bacharel as qualificações obtidas pelos professores do
   ensino primário e educadores de infância para efeito de prosseguimento
   dos seus estudos.
+
+url: https://dre.tretas.org/dre/20474/lei-50-90-de-25-de-agosto
 
 ---
 ### ano: 1991
@@ -361,11 +426,16 @@ about:
   - gestão escolar
   - pré-escolar
 
+url: https://dre.tretas.org/dre/26070/decreto-lei-172-91-de-10-de-maio
+
 ---
 type: despacho
 id: Despacho nº 124/ME/91, de 31 de julho, 1991
 desc: |
   homologação dos programas curriculares dos ensinos básico e secundário.
+
+url: https://dre.tretas.org/dre/29622/despacho-124-ME-91-de-17-de-agosto
+nota: FIXME - data diferente, pode não ser.
 
 ---
 ### ano: 1992
@@ -377,8 +447,15 @@ desc: |
   estruturas de orientação educativa dos estabelecimentos de educação
   pré-escolar e dos ensinos básico e secundário.
 
+url: https://dre.tretas.org/dre/45727/portaria-921-92-de-23-de-setembro
+
 ---
 ### ano: 1993
+
+## JJ Ver se é relevante (mensiona ensino recorrente), detalhes de 
+##   funcionamento, avaliação, faltas, :
+## https://data.dre.pt/eli/dec-lei/301/1993/08/31/p/dre/pt/html
+## Estabelece o regime de matrícula e de frequência no ensino básico obrigatório
 
 ---
 id: diploma 2
@@ -389,6 +466,7 @@ about:
   - curriculo ensino secundário
   - cursos tecnológicos
 
+
 ---
 type: decreto
 id: Decreto-Lei nº 70/93, de 10 de março, 1993
@@ -396,6 +474,8 @@ desc: |
   Estabelece o regime de criação e funcionamento das escolas profissionais
 about:
   - escolas profissionais
+
+url: https://dre.tretas.org/dre/49240/decreto-lei-70-93-de-10-de-marco
 
 ---
 type: despacho
@@ -406,17 +486,21 @@ about:
   - avaliação de alunos
   - ensino secundário
 
+url: https://dre.tretas.org/dre/54228/despacho-normativo-338-93-de-21-de-outubro
+
 ---
 type: decreto
 id: Decreto-Lei nº 141/93, de 26 de abril, 1993
 desc: |
   criação das direções regionais de educação.
 
+url: https://dre.tretas.org/dre/50193/decreto-lei-141-93-de-26-de-abril
+
 ---
 ### ano: 1994
 
 ---
-type: movimento protesto
+type: movimento de protesto
 id: geração Rasca
 year: 1994
 desc: |
@@ -430,6 +514,9 @@ type: despacho
 id: Despacho nº 147-B/ME/96, de 8 de julho, 1996
 desc: |
   criação dos Territórios Educativos de Intervenção Prioritária (TEIP).
+
+url: https://dre.tretas.org/dre/80350/despacho-147-B-ME-96-de-1-de-agosto
+nota: FIXME - ?
 
 ---
 type: 
@@ -456,6 +543,8 @@ desc: |
 about:
   - ensino pré-escolar
 
+url: https://dre.pt/dre/detalhe/lei/5-1997-561219
+
 ---
 type: lei
 id: Lei nº 115/97, de 19 de setembro, 1997
@@ -465,6 +554,8 @@ desc: |
   o grau de licenciado como requisito de acesso à profissão docente.
 about:
   - ensino superior
+
+url: https://dre.pt/dre/detalhe/lei/115-1997-653145
 
 ---
 type: directiva
@@ -483,6 +574,8 @@ desc: |
 about:
   - ensino pré-escolar
 
+url: https://dre.pt/dre/detalhe/decreto-lei/147-1997-358959
+
 ---
 type: despacho
 id: Despacho nº 5220/97 de 10 de fevereiro , 1997
@@ -490,6 +583,9 @@ desc: |
   Orientações Curriculares para a Educação Pré-escolar
 about:
  - ensino pré-escolar
+
+url: https://dre.tretas.org/dre/84253/despacho-5220-97-de-4-de-agosto
+note: FIXME data difere
 
 ---
 ### ano: 1998
@@ -502,6 +598,8 @@ desc: |
   escolas. (Agrupamentos de Escolas)
 about:
   - gestão escolar
+
+url: https://dre.pt/dre/detalhe/decreto-lei/115-a-1998-155636
 
 ---
 type: directiva
@@ -530,6 +628,7 @@ desc: |
   31 de maio,
 desc: |
   alteração ao Orçamento do Estado de 2002.
+nota: FIXME datas nao batem certo
 
 ---
 type: decreto
@@ -865,7 +964,7 @@ about:
   - ensino básico
 
 ---
-type: movimento protesto
+type: movimento de protesto
 id: geração Parva
 year: 2011
 desc: |

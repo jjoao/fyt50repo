@@ -1,0 +1,68 @@
+digraph Classes {
+	graph [rankdir=LR]
+	node [shape=box]
+	Thing
+	Thing -> "FYT-topic"
+	Thing -> "história solta"
+	Thing -> "instituição"
+	Thing -> "movimento protesto"
+	Thing -> programa
+	Thing -> projecto
+	Thing -> "proposta de actividades curriculares"
+	Thing -> "resolução"
+	"FYT-topic" -> document
+	"FYT-topic" -> evento
+	"FYT-topic" -> governo
+	"FYT-topic" -> movimento
+	"FYT-topic" -> pessoa
+	"FYT-topic" -> "temática"
+	document -> cronologia
+	document -> "história"
+	document -> "legislação"
+	evento -> "manifestação"
+	movimento -> "movimento de protesto"
+	pessoa -> investigador
+	pessoa -> ministro
+	"temática" -> "Metas Curriculares"
+	"temática" -> "Plano Nacional de Leitura"
+	"temática" -> "avaliação"
+	"temática" -> curriculo
+	"temática" -> disciplina
+	"temática" -> gerais
+	"temática" -> "gestão escolar"
+	"temática" -> "numerus clausus"
+	"temática" -> "processo de Bolonha"
+	"temática" -> telescola
+	"temática" -> "tipos de ensino"
+	"temática" -> "traços"
+	"história" -> "episódio"
+	"história" -> "história de vida"
+	"legislação" -> circular
+	"legislação" -> decreto
+	"legislação" -> "deliberação"
+	"legislação" -> despacho
+	"legislação" -> directiva
+	"legislação" -> lei
+	"legislação" -> portaria
+	ministro -> "ministro da Ciência"
+	ministro -> "ministro da Educação"
+	"avaliação" -> "avaliação de cursos"
+	"avaliação" -> "avaliação docente"
+	curriculo -> "curriculo ensino secundário"
+	disciplina -> "Matemática"
+	disciplina -> "Português"
+	disciplina -> "disciplina Inglês"
+	gerais -> "desigualdades sociais"
+	gerais -> "formação"
+	gerais -> retornados
+	"tipos de ensino" -> "cursos tecnológicos"
+	"tipos de ensino" -> "ensino básico"
+	"tipos de ensino" -> "ensino recorrente"
+	"tipos de ensino" -> "ensino secundário"
+	"tipos de ensino" -> "ensino superior"
+	"tipos de ensino" -> "escolas profissionais"
+	"tipos de ensino" -> "politécnico"
+	"tipos de ensino" -> "pré-escolar"
+	"traços" -> "objectividade política"
+	"episódio" -> "história à boleia"
+}

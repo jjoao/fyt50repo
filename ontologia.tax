@@ -14,17 +14,20 @@ document
     história
         história de vida 
         episódio
+            história solta
             história à boleia
 
 temática
     tipos de ensino
-        ensino superior 
         pré-escolar 
-        ensino secundário 
         ensino_básico
+        ensino secundário 
+        ensino superior 
+        ensino recorrente
         cursos_tecnológicos
         escolas_profissionais
         politécnico
+        
     curriculo
         curriculo_ensino_secundário
     avaliação
@@ -42,13 +45,22 @@ temática
     Plano_Nacional_de_Leitura
     gestão_escolar
 
+
+    traços
+        objectividade política
+
+    gerais
+        formação
+        desigualdades sociais
+        retornados
+
 evento
     manifestação
 
 pessoa 
     investigador 
     ministro
-       ministro da Educação
-       ministro da Ciência
+        ministro da Educação
+        ministro da Ciência
 
 governo

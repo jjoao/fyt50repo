@@ -28,8 +28,11 @@
    li.text strong { color: #009999; }
    li.text        { padding-top: 10px; padding-bottom: 10px; }
 </style>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
+
+<span style="display:block" class="note">It **works!** ? </span>
 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name"/>
 
@@ -43,6 +46,7 @@
 </ol>
    <li><a href='#document'>document</a>  owl:subClassOf *</li>
    <li><a href='#evento'>evento</a>  owl:subClassOf *</li>
+   <li><a href='#governo'>governo</a>  owl:subClassOf *</li>
    <li><a href='#movimento'>movimento</a>  owl:subClassOf *</li>
    <li><a href='#pessoa'>pessoa</a>  owl:subClassOf *</li>
    <li><a href='#temática'>temática</a>  owl:subClassOf *</li>
@@ -329,8 +333,8 @@
 <ul>
 
 <li>
-<a href='#cronologia'>cronologia</a>
 <a href='#document'>document</a>
+<a href='#cronologia'>cronologia</a>
 </li>
 <ol>
    <li>author: <a href='#Ana Carolino'>Ana Carolino</a></li>
@@ -1810,6 +1814,17 @@ de Competências ("Novas Oportunidades"..., hoje "Qualifica").</li>
    <li>ordem: 64</li>
 </ol>
 </ul></section>
+<section id='filhos'>
+<strong>filhos</strong>
+<ul>
+
+<li>
+<a href='#temática'>temática</a>
+</li>
+<ol>
+   <li>see doc: <a href='#habo-jj'>habo-jj</a></li>
+</ol>
+</ul></section>
 <section id='Francisco de Paula Leite Pinto'>
 <strong>Francisco de Paula Leite Pinto</strong>
 <ul>
@@ -1890,6 +1905,7 @@ emprego e não ter perspetivas de futuro com a crise económica.</li>
 <li>
 </li>
 <ol>
+   <li>owl:subClassOf: <a href='# top'> top</a></li>
 </ol>
  <li><a href='#I Oliveira Salazar'>I Oliveira Salazar</a></li>
  <li><a href='#I Prov. Palma Carlos'>I Prov. Palma Carlos</a></li>
@@ -1969,6 +1985,53 @@ emprego e não ter perspetivas de futuro com a crise económica.</li>
    <li>nome completo: Gustavo Cordeiro Ramos (2.ª vez continuação) (1888–1974)</li>
 </ol>
 </ul></section>
+<section id='habo-jj'>
+<strong>habo-jj</strong>
+<ul>
+
+<li>
+<a href='#história à boleia'>história à boleia</a>
+</li>
+<ol>
+   <li> body-format : <a href='#markdown'>markdown</a></li>
+   <li>about: <a href='#filhos'>filhos</a></li>
+   <li>about: <a href='#poesia'>poesia</a></li>
+   <li>author: <a href='#J.João'>J.João</a></li>
+   <li>bodyJJJ: 
+<div class="markdown">
+# Poesia escondida 
+ 
+Uma vez a minha filha (teria uns 7 anos) apareceu em casa com um 
+papel minúsculo e olhava com grande cuidado para ele. 
+ 
+ 
+-- O que tens aí?   
+-- É uma poesia.    
+-- ?   
+-- A professora Rosalina escreveu no quadro um problema: 
+"O canteiro do meu jardim, tem forma retangular. ..." 
+e eu achei parecia uma poesia. 
+ 
+E efectivamente escreveu no papelito:  
+"O canteiro do meu jardim   
+tem forma retangular   
+de dia e de noite   
+dá-lhe o luar." 
+ 
+-- E a professora?   
+-- Disse que é importante saber encontrar a poesia.   
+ 
+Ao contrário da versão oficial, nós aprendemos muito mais 
+com os nossos filhos do que o inverso. Mesmo quando eles são pequenos. 
+ 
+Eu já me esqueci de toneladas de coisas, 
+mas quando menos espero vem-me à lembrança a importância 
+de procurar poesia escondida. E às vezes outras coisas 
+escondidas.</li>
+</div>
+   <li>title: <a href='#História de Objecto Poesia escondida'>História de Objecto Poesia escondida</a></li>
+</ol>
+</ul></section>
 <section id='Hermano Saraiva'>
 <strong>Hermano Saraiva</strong>
 <ul>
@@ -2006,6 +2069,17 @@ emprego e não ter perspetivas de futuro com a crise económica.</li>
 <ol>
    <li>owl:subClassOf: <a href='#episódio'>episódio</a></li>
 </ol>
+ <li><a href='#habo-jj'>habo-jj</a></li>
+</ul></section>
+<section id='História de Objecto Poesia escondida'>
+<strong>História de Objecto Poesia escondida</strong>
+<ul>
+
+<li>
+</li>
+<ol>
+</ol>
+   <li><a href='#habo-jj'>habo-jj</a>  title *</li>
 </ul></section>
 <section id='história de vida'>
 <strong>história de vida</strong>
@@ -2205,8 +2279,10 @@ emprego e não ter perspetivas de futuro com a crise económica.</li>
 <ul>
 
 <li>
+<a href='#pessoa'>pessoa</a>
 </li>
 <ol>
+   <li>authorOf: <a href='#habo-jj'>habo-jj</a></li>
 </ol>
    <li><a href='#Cronologia de eventos FYTid'>Cronologia de eventos FYTid</a>  transformação *</li>
 </ul></section>
@@ -2740,6 +2816,16 @@ crianças a partir dos 5 anos de idade.</li>
    <li>ordem: 62</li>
 </ol>
 </ul></section>
+<section id='markdown'>
+<strong>markdown</strong>
+<ul>
+
+<li>
+</li>
+<ol>
+</ol>
+   <li><a href='#habo-jj'>habo-jj</a>   body-format  *</li>
+</ul></section>
 <section id='Matemática'>
 <strong>Matemática</strong>
 <ul>
@@ -2759,8 +2845,8 @@ crianças a partir dos 5 anos de idade.</li>
 <ul>
 
 <li>
-<a href='#temática'>temática</a>
 <a href='#programa'>programa</a>
+<a href='#temática'>temática</a>
 </li>
 <ol>
    <li>see doc: <a href='#directiva 15'>directiva 15</a></li>
@@ -2817,6 +2903,8 @@ curriculares de adesão voluntária).</li>
 <ol>
    <li>owl:subClassOf: <a href='#pessoa'>pessoa</a></li>
 </ol>
+   <li><a href='#ministro da Ciência'>ministro da Ciência</a>  owl:subClassOf *</li>
+   <li><a href='#ministro da Educação'>ministro da Educação</a>  owl:subClassOf *</li>
  <li><a href='#Veiga Simão'>Veiga Simão</a></li>
 </ul></section>
 <section id='ministro da Ciência'>
@@ -2826,6 +2914,7 @@ curriculares de adesão voluntária).</li>
 <li>
 </li>
 <ol>
+   <li>owl:subClassOf: <a href='#ministro'>ministro</a></li>
 </ol>
  <li><a href='#Elvira Fortunato'>Elvira Fortunato</a></li>
  <li><a href='#Graça Carvalho'>Graça Carvalho</a></li>
@@ -2840,6 +2929,7 @@ curriculares de adesão voluntária).</li>
 <li>
 </li>
 <ol>
+   <li>owl:subClassOf: <a href='#ministro'>ministro</a></li>
 </ol>
  <li><a href='#Alexandre Alberto de Sousa Pinto'>Alexandre Alberto de Sousa Pinto</a></li>
  <li><a href='#António Carneiro Pacheco'>António Carneiro Pacheco</a></li>
@@ -2923,8 +3013,8 @@ curriculares de adesão voluntária).</li>
 <ul>
 
 <li>
-<a href='#temática'>temática</a>
 <a href='#programa'>programa</a>
+<a href='#temática'>temática</a>
 </li>
 <ol>
    <li>see doc: <a href='#directiva 5'>directiva 5</a></li>
@@ -2984,6 +3074,7 @@ curriculares de adesão voluntária).</li>
    <li><a href='#investigador'>investigador</a>  owl:subClassOf *</li>
    <li><a href='#ministro'>ministro</a>  owl:subClassOf *</li>
  <li><a href='#Ana Carolino'>Ana Carolino</a></li>
+ <li><a href='#J.João'>J.João</a></li>
  <li><a href='#Luís Grosso Correia'>Luís Grosso Correia</a></li>
  <li><a href='#Margarida Marta'>Margarida Marta</a></li>
 </ul></section>
@@ -2992,13 +3083,24 @@ curriculares de adesão voluntária).</li>
 <ul>
 
 <li>
-<a href='#temática'>temática</a>
 <a href='#programa'>programa</a>
+<a href='#temática'>temática</a>
 </li>
 <ol>
    <li>see doc: <a href='#Resolução do Conselho de Ministros n 48-D 2017'>Resolução do Conselho de Ministros n 48-D 2017</a></li>
    <li>see doc: <a href='#directiva 9'>directiva 9</a></li>
    <li>owl:subClassOf: <a href='#temática'>temática</a></li>
+</ol>
+</ul></section>
+<section id='poesia'>
+<strong>poesia</strong>
+<ul>
+
+<li>
+<a href='#temática'>temática</a>
+</li>
+<ol>
+   <li>see doc: <a href='#habo-jj'>habo-jj</a></li>
 </ol>
 </ul></section>
 <section id='politécnico'>
@@ -3177,8 +3279,8 @@ pré-escolar e dos ensinos básico e secundário.</li>
 <ul>
 
 <li>
-<a href='#temática'>temática</a>
 <a href='#programa'>programa</a>
+<a href='#temática'>temática</a>
 </li>
 <ol>
    <li>see doc: <a href='#directiva 5'>directiva 5</a></li>
@@ -3351,12 +3453,14 @@ pré-escolar e dos ensinos básico e secundário.</li>
  <li><a href='#ensino secundário'>ensino secundário</a></li>
  <li><a href='#ensino superior'>ensino superior</a></li>
  <li><a href='#escolas profissionais'>escolas profissionais</a></li>
+ <li><a href='#filhos'>filhos</a></li>
  <li><a href='#gestão escolar'>gestão escolar</a></li>
  <li><a href='#Matemática'>Matemática</a></li>
  <li><a href='#Metas Curriculares'>Metas Curriculares</a></li>
  <li><a href='#Novas Oportunidades'>Novas Oportunidades</a></li>
  <li><a href='#numerus clausus'>numerus clausus</a></li>
  <li><a href='#Plano Nacional de Leitura'>Plano Nacional de Leitura</a></li>
+ <li><a href='#poesia'>poesia</a></li>
  <li><a href='#politécnico'>politécnico</a></li>
  <li><a href='#Português'>Português</a></li>
  <li><a href='#pré-escolar'>pré-escolar</a></li>
@@ -3441,8 +3545,8 @@ pré-escolar e dos ensinos básico e secundário.</li>
 
 <li>
 <a href='#ministro da Educação'>ministro da Educação</a>
-<a href='#temática'>temática</a>
 <a href='#ministro'>ministro</a>
+<a href='#temática'>temática</a>
 </li>
 <ol>
    <li>fim de mandato: 25 de abril de 1974</li>
@@ -3751,6 +3855,12 @@ pré-escolar e dos ensinos básico e secundário.</li>
       if(sec){ sec.style.display=""; }
    }
 
+   marks = document.getElementsByClassName("markdown");
+   for (i = 0; i < marks.length; i++) {
+        marks[i].innerHTML = marked.parse( marks[i].innerHTML );
+        // marks[i].innerHTML =  "XXXXXXXXXXXXXXXXXXXXXXXXXXX";
+   }
+   
 </script>
 </body>
 </html>
