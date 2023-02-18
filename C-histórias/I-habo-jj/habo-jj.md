@@ -1,5 +1,5 @@
 ---
-id: habo-jj
+id: habo-jj História de Objecto - Poesia escondida
 title: História de Objecto - Poesia escondida
 author: J.João
 type: história à boleia
