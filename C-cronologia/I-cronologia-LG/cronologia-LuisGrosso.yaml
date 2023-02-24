@@ -1,6 +1,6 @@
 ---
 id: Cronologia de eventos FYTid
-title: Cronologia de eventos
+title: Cronologia de legislação, reformas e eventos do Sistema Educativo Português
 desc: |
    Cronologia de eventos
    Identidades, Democracia, Escola, Administração e Formação
@@ -15,7 +15,7 @@ author:
   - Ana Carolino
 date: Maio de 2021
 version: 0.1
-transformação: J.João
+recodificado por: J.João
 
 ---
 ### ano: 1947
@@ -98,7 +98,7 @@ url:
 
 ---
 type: decreto
-fixme-id: Decreto-Lei nº 47430, de 2 de janeiro, 1967
+nota: FIXME anteriormente estava - Decreto-Lei nº 47430, de 2 de janeiro, 1967
 id: Decreto-Lei nº 47480, de 2 de janeiro, 1967
 desc: |
   criação do Ciclo Preparatório do Ensino Secundário.
@@ -183,8 +183,7 @@ url: https://dre.tretas.org/dre/215854/portaria-634-A-77-de-4-de-outubro
 
 ---
 type: decreto
-fixme-type: portaria
-fixme-id: Portaria nº 725/77, de 23 de novembro, 1977
+nota: FIXME anteriormente estava - Portaria nº 725/77, de 23 de novembro, 1977
 desc: |
   instituição do "Ano Propedêutico do ensino superior" a partir de 1977/1978.
 about:
@@ -334,7 +333,7 @@ url: https://dre.tretas.org/dre/45752/portaria-850-87-de-3-de-novembro
 
 ---
 type: portaria
-id: Portaria nº 336/88, de 28 de maio
+id: Portaria nº 336/88, de 28 de maio, 1988
 desc: |
   regulamenta a prática pedagógica dos cursos de formação inicial
   de educadores de infância e de professores dos 1º e 2º ciclos do
@@ -344,7 +343,7 @@ url: https://dre.tretas.org/dre/75659/portaria-336-88-de-28-de-maio
 
 ---
 type: decreto
-id: Decreto-Lei nº 287/88, de 19 de agosto, 
+id: Decreto-Lei nº 287/88, de 19 de agosto, 1988
 desc: |
   regulamenta a profissionalização em serviço dos professores
   pertencentes aos quadros, com nomeação provisória, dos ensinos
@@ -516,7 +515,7 @@ desc: |
   criação dos Territórios Educativos de Intervenção Prioritária (TEIP).
 
 url: https://dre.tretas.org/dre/80350/despacho-147-B-ME-96-de-1-de-agosto
-nota: FIXME - ?
+nota: FIXME - verificar data
 
 ---
 type: 
@@ -585,7 +584,7 @@ about:
  - ensino pré-escolar
 
 url: https://dre.tretas.org/dre/84253/despacho-5220-97-de-4-de-agosto
-note: FIXME data difere
+nota: FIXME data difere
 
 ---
 ### ano: 1998

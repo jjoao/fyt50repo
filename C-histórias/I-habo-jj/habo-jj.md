@@ -25,7 +25,7 @@ papel minúsculo e olhava com grande cuidado para ele.
 -- O que tens aí? \
 -- É uma poesia.  \
 -- ? \
--- A professora Rosalina escreveu no quadro um problema:
+-- A `professora Rosalina`(pessoa) escreveu no quadro um problema:
 "O canteiro do meu jardim, tem forma retangular. ..."
 e eu achei que parecia uma poesia.
 

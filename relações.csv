@@ -14,6 +14,7 @@ rdfs:subClassOf :: classe específica ::  ::
 #classe específica ::rdfs:subClassOf ::  ::
 rdf:type        :: instância  :: ::
 #instância        :: rdf:type :: ::
+recodificado por :: recodificou :: document :: pessoa
 
 @TAB
 
@@ -21,5 +22,5 @@ DatatypeProperty :: domain   :: comment
 desc             ::          :: descrição
 year             ::          ::
 version          :: document ::
-title
-
+title            :: document ::
+nota             ::          ::
