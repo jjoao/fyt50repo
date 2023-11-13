@@ -8,20 +8,22 @@ about:
   - ensino recorrente
 ---
 
+# Telefone da venda
+
 A Luísa formou-se em Filosofia em 1985, e sempre teve a paixão
 das bibliotecas, arquivos e áreas afins. Também é apaixonada pelo
 ensino.
 
-# Escola de Chemedião (1989)
+## Escola de Chemedião (1989)
 
 Em 1989 a Luísa estava a frequentar uns cursos de formação em
-informática documental e a fazer um estágio em análise documental
-concorreu aos mini-concursos para dar aulas 
+informática documental e a fazer um estágio em análise documental.
+Concorreu então aos mini-concursos para dar aulas 
 no Ensino Recorrente (extensão educativa) noturno.
 
 Obteve um horário _incompleto_ correspondente ao ciclo preparatório.
 Os alunos estavam inscritos no 2º ciclo, muitos deles
-com o objectivo de conseguirem um diploma de 6º anos de
+com o objectivo de conseguirem um diploma de 6º ano de
 escolaridade, requisito necessário para poderem concorrer a emprego
 na função pública.
 
@@ -36,7 +38,7 @@ no horário noturno (17h -- 22h ??).
 
 A Luísa estava encarregada da área 1, 
 
-## Localização da escola
+### Localização da escola
 
 As aulas decorriam na escola de Chemedião -- na 
 freguesia da Ribeira, Terras de Bouro,
@@ -51,7 +53,7 @@ curvas). Principalmente na sua parte final, a estrada era
 estreita, com ravinas e muito inclinada. 
 Muitas das viagens foram de noite.
 
-## Os alunos
+### Os alunos
 
 O conjunto de alunos era bastante heterogéneo tando em idade como 
 em personalidades e background.
