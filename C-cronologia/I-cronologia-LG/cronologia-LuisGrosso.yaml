@@ -502,8 +502,34 @@ url: https://dre.tretas.org/dre/50193/decreto-lei-141-93-de-26-de-abril
 type: movimento de protesto
 id: geração Rasca
 year: 1994
-desc: |
-   Movimento antipropinas -- "geração à rasca"
+desc^^md: |
+   A 5 de Maio de 1994, manifestações convocadas por associações de
+   estudantes de ensino secundário contra as Provas Globais de Acesso
+   ocorreram a nível nacional. Aos estudantes do secundário, juntaram-se
+   alunos do ensino superior, contestando o pagamento de propinas, e o
+   baixo valor do apoio da ação social escolar para os estudantes mais
+   carenciados. Durante as marchas pelas ruas o trânsito foi cortado,
+   e alguns estudantes baixaram as calças expondo rabos e órgãos
+   genitais, sendo as imagens capturadas pelas câmaras fotográficas e de
+   televisão dos repórteres a acompanhar as manifestações e publicadas
+   nos jornais e transmitidas nos telejornais. Os estudantes empunhavam
+   também cartazes, alguns com insultos dirigidos principalmente à
+   Ministra da Educação. Vários jovens apelaram à calma durante a
+   manifestação empunhando megafones, discordando do uso de calão e
+   tentando impedir o confronto com a policia.
+
+   No dia seguinte, Vicente Jorge Silva escreve no Público um editorial
+   intitulado "Estamos a assistir ao nascimento de uma geração
+   rasca?" onde o colonista alude a comportamentos dos estudantes durante
+   as manifestações como "expressões de má-criação, estupidez
+   e alarvidade".[6] Jorge Silva acusa também os jovens de usarem os
+   protestos como um pretexto e "[...] transformaram os seus cortejos num
+   desfile de palavrões, cartazes e gestos obscenos, piadas de caserna
+   ou trocadilhos no mais decrépito estilo das velhas 'repúblicas'
+   coimbrãs"[7] O editor culpa também os jornais e especialmente as
+   televisões por registar de "[...] forma frequentemente acrítica e
+   benevolente [...] manifestações onde os sinais de festividade rasca
+   eram já perfeitamente visíveis e intoleráveis".[7]
 
 ---
 ### ano: 1996
@@ -952,6 +978,17 @@ desc: |
 ### ano: 2011
 
 ---
+
+type: movimento de protesto
+id: geração à rasca
+year: 2011
+desc:
+  Em 2011, um movimento de protesto estudantil adopta o
+  geração rasca (da geração anterior) ajustado para "à rasca", por
+  ser alvo das políticas de austeridade implementadas pelo governo de
+  Passos Coelho
+
+---
 type: directiva
 id: directiva 14
 year: 2011
@@ -966,7 +1003,7 @@ about:
 type: movimento de protesto
 id: geração Parva
 year: 2011
-desc: |
+desc^^md: |
    A designação de geração Parva surgiu na sequência da música
    "Parva que sou", Deolinda, interpretada pela primeira vez pelo grupo
    nos concertos nos Coliseus do Porto e Lisboa em janeiro de 2011,

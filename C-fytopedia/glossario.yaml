@@ -1,0 +1,56 @@
+---
+id: mini-concursos
+desc: |
+  Concursos para professores que tipicamente envovem
+  horários incompletos, e que se efectuam normalmente
+  mais tarde que os concursos normais.
+---
+id: telescola
+body-format_ : markdown 
+body^^markdown: |
+  Os professores estavam na televisão e os alunos aprendiam à
+  distância. A Telescola teve emissões regulares entre 1965 e 1987,
+  permitindo a milhares de alunos completarem o ensino do quinto e sexto
+  anos de escolaridade.
+
+  Por todo o país as aulas eram seguidas pela televisão e os alunos eram
+  depois acompanhados por professores que completavam as lições com mais
+  informação. Também existiam livros adaptados às emissões que eram
+  entregues os estudantes, gratuitamente, nos primeiros dias de aulas.
+
+  Por cada sala de telescola existiam normalmente dois professores –
+  um da área de ciências e outro de letras – que acompanhavam as
+  turmas constituídas por jovens que impossibilitados de frequentar
+  aulas noutros locais. As limitações financeiras e a dificuldade
+  das deslocações, resultado de uma deficiente rede de transportes,
+  levavam a que muitos abandonassem a escola após quatro anos de estudos
+  (o ensino primário).
+
+  As aulas da telescola – transmitidas durante os dias úteis entre as
+  14 e as 19 horas – complementavam a rede de ensino, mas as lições
+  eram vistas também por outras pessoas que posteriormente se propunham
+  para exame externo de modo a completar graus de ensino.
+
+  A última emissão deste programa foi para o ar em 1987, mas as aulas
+  continuaram na televisão até ao ano 2000, através de vídeos enviados
+  diretamente para as escolas.
+
+  **Fonte**:RTP
+
+---
+id: requisição e destacamento de professores
+desc: |
+  ...Fixme
+---
+id: Destacamento por aproximação à residência familiar
+same as: RAR
+desc: |
+  ...Fixme
+type: destacamento
+seealso: Artigo 41.º - Destacamento por preferência conjugal
+---
+id: ao abrigo do artigo 79 
+desc: |
+  ter menos um dia de trabalho mas ter de fazer substituições
+  quando for preciso.
+---

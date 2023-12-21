@@ -1,4 +1,4 @@
-ministro da Educação :: nome completo :: ordem :: início de mandato :: fim de mandato :: durante_governo:governo
+ministro da Educação :: nome completo :: ordem :: início de mandato :: fim de mandato :: durante_governo:governo :: type
 
 Gustavo Cordeiro Ramos  ::Gustavo Cordeiro Ramos (1888–1974)::::11 de abril de 1933::24 de julho de 1933::I Oliveira Salazar
 Alexandre Alberto de Sousa Pinto ::Alexandre Alberto de Sousa Pinto (1880–1982)::58::24 de julho de 1933::19 de junho de 1934::I Oliveira Salazar
@@ -45,7 +45,7 @@ Júlio Domingos Pedrosa da Luz de Jesus ::Júlio Domingos Pedrosa da Luz de Jesu
 José David Gomes Justino ::José David Gomes Justino (1953–)::92::6 de abril de 2002::17 de julho de 2004::XV Durão Barroso
 Maria do Carmo Félix da Costa Seabra ::Maria do Carmo Félix da Costa Seabra (1955–)::93::17 de julho de 2004::12 de março de 2005::XVI Santana Lopes
 Maria de Lurdes Rodrigues ::Maria de Lurdes Reis Rodrigues (1956–)::94::12 de março de 2005::26 de outubro de 2009::XVII Sócrates
-Isabel Alçada ::Maria Isabel Girão de Melo Veiga Vilar "Alçada" (1950–)::95::26 de outubro de 2009::21 de junho de 2011::XVIII Sócrates
+Isabel Alçada ::Maria Isabel Girão de Melo Veiga Vilar "Alçada" (1950–)::95::26 de outubro de 2009::21 de junho de 2011::XVIII Sócrates :: Escritor
 Nuno Paulo de Sousa Arrobas Crato ::Nuno Paulo de Sousa Arrobas Crato (1952–)::96::21 de junho de 2011::30 de outubro de 2015::XIX Passos Coelho
 Margarida Isabel Mano  Tavares Simões Lopes ::Margarida Isabel Mano  Tavares Simões Lopes (1963–)::97::30 de outubro de 2015::26 de novembro de 2015::XX Passos Coelho
 Tiago Brandão Rodrigues ::Tiago Brandão Rodrigues (1977–)::98::26 de novembro de 2015::30 de março de 2022::XXI Costa | XXII Costa
