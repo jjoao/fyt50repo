@@ -6,8 +6,7 @@ desc: |
   mais tarde que os concursos normais.
 ---
 id: telescola
-body-format_ : markdown 
-body^^markdown: |
+desc^^md: |
   Os professores estavam na televisão e os alunos aprendiam à
   distância. A Telescola teve emissões regulares entre 1965 e 1987,
   permitindo a milhares de alunos completarem o ensino do quinto e sexto
@@ -42,7 +41,7 @@ id: requisição e destacamento de professores
 desc: |
   ...Fixme
 ---
-id: Destacamento por aproximação à residência familiar
+id: destacamento por aproximação à residência familiar
 same as: RAR
 desc: |
   ...Fixme
@@ -53,4 +52,63 @@ id: ao abrigo do artigo 79
 desc: |
   ter menos um dia de trabalho mas ter de fazer substituições
   quando for preciso.
+---
+id: artigo 112, 2023
+desc: |
+  ...Fixme
+  artigo polémico ?
+  Ministro voltou atrás com ele / standby;
+  Irá ser alterado?
+  Ligado ao "didatês".
+  Ligado à "escola formatadora".
+  "saberes digitais".
+---
+id: escolaridade obrigatória
+desc: |
+  1956  0..10 4 anos, masc;<br/>
+  1960  0..10 4 anos, masc e femininos;<br/>
+  1964  0..12 6 anos;<br/>
+  (1974)-1986  0..15 nove anos;<br/>
+  2009  0..18 nove anos.
+---
+id: GRAAL
+desc: |
+  ...Fixme
+---
+id: professor eventual
+desc: |
+  ...Fixme
+---
+id: professor provisório
+desc: |
+  ...Fixme
+---
+id: professore efectivo
+desc: |
+  ...Fixme
+---
+id: educação especial
+desc: |
+  ...Fixme
+---
+id: alunos supletivos
+desc: |
+  ...Fixme
+  depois de reprovarem vários anos
+---
+id: agrupamentos de escolas -- horizontal, Vertical
+desc: |
+  ...Fixme
+---
+id: área-escola área-de-projecto
+desc: |
+  ...Fixme
+---
+id: flanelógrafo
+desc: |
+  ...Fixme
+---
+id: método das 28 palavras
+desc: |
+  ...Fixme
 ---

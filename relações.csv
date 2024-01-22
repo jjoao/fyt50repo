@@ -9,6 +9,8 @@ author          :: authorOf   ::        :: pessoa
 durante governo :: teve ministro :: ministro :: governo
 teve ministro   :: durante governo :: governo ::ministro 
 by              :: wrote    ::        ::
+pof             :: contem   ::        :: documento
+lecionou em :: teve professor :: professor :: escola
 
 rdfs:subClassOf :: classe específica ::  ::
 #classe específica ::rdfs:subClassOf ::  ::
