@@ -1,6 +1,6 @@
 ---
 about:
-- Maria de Lourdes Rodrigues
+- Maria de Lurdes Rodrigues
 - ministro
 id: Entrevista  Ermelinda -- h17
 pof: Entrevista  Ermelinda
@@ -19,7 +19,7 @@ de eles deitarem abaixo aquilo que os outros fizeram, devia haver um mínimo de 
 Eles fizeram bem, vamos aproveitar e agora vamos melhorar, vamos incrementar.
 Não, às vezes derrubam.
 
-E nós por exemplo herdámos da Maria de Lourdes Rodrigues uma carga muito
+E nós por exemplo herdámos da Maria de Lurdes Rodrigues uma carga muito
 pesada, como o descrédito total sobre a classe docente.  E estamos
 a pagá-la ainda.  Estamos a pagá-la hoje, como docentes.  Os pais
 não acreditam em nós.  Eu não falto, por exemplo, não falto, mas

@@ -756,7 +756,7 @@ Porque ela depois andou, ela andou três ou quatro anos de comboio para Torres V
 até à profissionalização pela Universidade Aberta.
 
 ## Mudanças de Ministro
-###[Maria de Lourdes Rodrigues; ministro] 
+###[Maria de Lurdes Rodrigues; ministro] 
 
 Os professores já sofreram muito na pele com as mudanças de ministérios e de ministros.
 Cada ministro quer mostrar trabalho e nem sempre eles são sensados.
@@ -766,7 +766,7 @@ de eles deitarem abaixo aquilo que os outros fizeram, devia haver um mínimo de 
 Eles fizeram bem, vamos aproveitar e agora vamos melhorar, vamos incrementar.
 Não, às vezes derrubam.
 
-E nós por exemplo herdámos da Maria de Lourdes Rodrigues uma carga muito
+E nós por exemplo herdámos da Maria de Lurdes Rodrigues uma carga muito
 pesada, como o descrédito total sobre a classe docente.  E estamos
 a pagá-la ainda.  Estamos a pagá-la hoje, como docentes.  Os pais
 não acreditam em nós.  Eu não falto, por exemplo, não falto, mas
